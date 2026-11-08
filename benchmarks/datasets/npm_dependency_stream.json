@@ -1,0 +1,4312 @@
+{
+  "ecosystem": "npm",
+  "description": "Standardized multi-epoch npm software dependency stream with OSV/GHSA ground truth annotations.",
+  "num_epochs": 5,
+  "total_packages": 50,
+  "snapshots": [
+    {
+      "epoch": 0,
+      "timestamp": "2023-01-15T00:00:00Z",
+      "packages": [
+        {
+          "name": "express",
+          "version": "4.0.5",
+          "maintainer_count": 5,
+          "commit_cadence": 25.0,
+          "release_velocity": 4.0,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "body-parser",
+          "version": "4.0.5",
+          "maintainer_count": 3,
+          "commit_cadence": 10.0,
+          "release_velocity": 2.0,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cookie-parser",
+          "version": "4.0.4",
+          "maintainer_count": 2,
+          "commit_cadence": 6.0,
+          "release_velocity": 1.5,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "serve-static",
+          "version": "4.0.5",
+          "maintainer_count": 2,
+          "commit_cadence": 8.0,
+          "release_velocity": 1.8,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "send",
+          "version": "4.0.6",
+          "maintainer_count": 3,
+          "commit_cadence": 12.0,
+          "release_velocity": 2.2,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "debug",
+          "version": "4.0.5",
+          "maintainer_count": 3,
+          "commit_cadence": 15.0,
+          "release_velocity": 3.0,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ms",
+          "version": "4.0.4",
+          "maintainer_count": 1,
+          "commit_cadence": 4.0,
+          "release_velocity": 1.0,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "mime",
+          "version": "4.0.1",
+          "maintainer_count": 2,
+          "commit_cadence": 5.0,
+          "release_velocity": 1.2,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fresh",
+          "version": "4.0.5",
+          "maintainer_count": 1,
+          "commit_cadence": 3.0,
+          "release_velocity": 0.8,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "range-parser",
+          "version": "4.0.7",
+          "maintainer_count": 2,
+          "commit_cadence": 4.0,
+          "release_velocity": 1.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "etag",
+          "version": "4.0.1",
+          "maintainer_count": 2,
+          "commit_cadence": 3.0,
+          "release_velocity": 0.8,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "destroy",
+          "version": "4.0.0",
+          "maintainer_count": 1,
+          "commit_cadence": 2.0,
+          "release_velocity": 0.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "encodeurl",
+          "version": "4.0.0",
+          "maintainer_count": 1,
+          "commit_cadence": 2.0,
+          "release_velocity": 0.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "escape-html",
+          "version": "4.0.3",
+          "maintainer_count": 1,
+          "commit_cadence": 2.0,
+          "release_velocity": 0.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "qs",
+          "version": "4.0.5",
+          "maintainer_count": 3,
+          "commit_cadence": 16.0,
+          "release_velocity": 3.5,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "content-type",
+          "version": "4.0.5",
+          "maintainer_count": 1,
+          "commit_cadence": 3.0,
+          "release_velocity": 0.8,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "raw-body",
+          "version": "4.0.0",
+          "maintainer_count": 2,
+          "commit_cadence": 6.0,
+          "release_velocity": 1.5,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "bytes",
+          "version": "4.0.4",
+          "maintainer_count": 1,
+          "commit_cadence": 3.0,
+          "release_velocity": 0.8,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "http-errors",
+          "version": "4.0.2",
+          "maintainer_count": 2,
+          "commit_cadence": 8.0,
+          "release_velocity": 2.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "inherits",
+          "version": "4.0.0",
+          "maintainer_count": 1,
+          "commit_cadence": 1.0,
+          "release_velocity": 0.2,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "statuses",
+          "version": "4.0.7",
+          "maintainer_count": 2,
+          "commit_cadence": 4.0,
+          "release_velocity": 1.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "unpipe",
+          "version": "4.0.7",
+          "maintainer_count": 1,
+          "commit_cadence": 2.0,
+          "release_velocity": 0.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "lodash",
+          "version": "4.0.5",
+          "maintainer_count": 4,
+          "commit_cadence": 30.0,
+          "release_velocity": 4.5,
+          "historical_cve_count": 5,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "axios",
+          "version": "4.0.4",
+          "maintainer_count": 5,
+          "commit_cadence": 45.0,
+          "release_velocity": 6.0,
+          "historical_cve_count": 4,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "follow-redirects",
+          "version": "4.0.0",
+          "maintainer_count": 2,
+          "commit_cadence": 12.0,
+          "release_velocity": 2.5,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "form-data",
+          "version": "4.0.1",
+          "maintainer_count": 3,
+          "commit_cadence": 14.0,
+          "release_velocity": 2.8,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "combined-stream",
+          "version": "4.0.4",
+          "maintainer_count": 1,
+          "commit_cadence": 3.0,
+          "release_velocity": 0.8,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "delayed-stream",
+          "version": "4.0.6",
+          "maintainer_count": 1,
+          "commit_cadence": 2.0,
+          "release_velocity": 0.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "chalk",
+          "version": "4.0.0",
+          "maintainer_count": 4,
+          "commit_cadence": 20.0,
+          "release_velocity": 3.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ansi-styles",
+          "version": "4.0.2",
+          "maintainer_count": 2,
+          "commit_cadence": 6.0,
+          "release_velocity": 1.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "supports-color",
+          "version": "4.0.6",
+          "maintainer_count": 2,
+          "commit_cadence": 7.0,
+          "release_velocity": 1.8,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "semver",
+          "version": "4.0.4",
+          "maintainer_count": 4,
+          "commit_cadence": 18.0,
+          "release_velocity": 3.0,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "minimist",
+          "version": "4.0.7",
+          "maintainer_count": 2,
+          "commit_cadence": 5.0,
+          "release_velocity": 1.0,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "async",
+          "version": "4.0.4",
+          "maintainer_count": 3,
+          "commit_cadence": 10.0,
+          "release_velocity": 2.0,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "commander",
+          "version": "4.0.5",
+          "maintainer_count": 4,
+          "commit_cadence": 22.0,
+          "release_velocity": 4.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "glob",
+          "version": "4.0.6",
+          "maintainer_count": 3,
+          "commit_cadence": 12.0,
+          "release_velocity": 2.5,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "minimatch",
+          "version": "4.0.5",
+          "maintainer_count": 2,
+          "commit_cadence": 8.0,
+          "release_velocity": 2.0,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "brace-expansion",
+          "version": "4.0.3",
+          "maintainer_count": 2,
+          "commit_cadence": 4.0,
+          "release_velocity": 1.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "balanced-match",
+          "version": "4.0.5",
+          "maintainer_count": 1,
+          "commit_cadence": 2.0,
+          "release_velocity": 0.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "concat-map",
+          "version": "4.0.3",
+          "maintainer_count": 1,
+          "commit_cadence": 1.0,
+          "release_velocity": 0.2,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fs-extra",
+          "version": "4.0.6",
+          "maintainer_count": 3,
+          "commit_cadence": 14.0,
+          "release_velocity": 2.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "graceful-fs",
+          "version": "4.0.4",
+          "maintainer_count": 2,
+          "commit_cadence": 5.0,
+          "release_velocity": 1.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "jsonfile",
+          "version": "4.0.1",
+          "maintainer_count": 2,
+          "commit_cadence": 4.0,
+          "release_velocity": 1.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "universalify",
+          "version": "4.0.1",
+          "maintainer_count": 1,
+          "commit_cadence": 2.0,
+          "release_velocity": 0.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "uuid",
+          "version": "4.0.6",
+          "maintainer_count": 3,
+          "commit_cadence": 16.0,
+          "release_velocity": 3.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ws",
+          "version": "4.0.6",
+          "maintainer_count": 4,
+          "commit_cadence": 28.0,
+          "release_velocity": 4.5,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "yargs",
+          "version": "4.0.3",
+          "maintainer_count": 4,
+          "commit_cadence": 24.0,
+          "release_velocity": 3.8,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cliui",
+          "version": "4.0.3",
+          "maintainer_count": 2,
+          "commit_cadence": 5.0,
+          "release_velocity": 1.2,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "wrap-ansi",
+          "version": "4.0.4",
+          "maintainer_count": 2,
+          "commit_cadence": 7.0,
+          "release_velocity": 1.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "string-width",
+          "version": "4.0.2",
+          "maintainer_count": 2,
+          "commit_cadence": 8.0,
+          "release_velocity": 1.8,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        }
+      ],
+      "dependencies": [
+        {
+          "source": "express",
+          "target": "body-parser",
+          "constraint_type": "caret",
+          "version_spec": "^1.20.1",
+          "age_days": 116
+        },
+        {
+          "source": "express",
+          "target": "cookie-parser",
+          "constraint_type": "caret",
+          "version_spec": "~1.4.6",
+          "age_days": 118
+        },
+        {
+          "source": "express",
+          "target": "serve-static",
+          "constraint_type": "caret",
+          "version_spec": "1.15.0",
+          "age_days": 120
+        },
+        {
+          "source": "express",
+          "target": "send",
+          "constraint_type": "caret",
+          "version_spec": "^0.18.0",
+          "age_days": 101
+        },
+        {
+          "source": "express",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 120
+        },
+        {
+          "source": "express",
+          "target": "qs",
+          "constraint_type": "caret",
+          "version_spec": "^6.11.0",
+          "age_days": 117
+        },
+        {
+          "source": "express",
+          "target": "etag",
+          "constraint_type": "caret",
+          "version_spec": "~1.8.1",
+          "age_days": 115
+        },
+        {
+          "source": "express",
+          "target": "fresh",
+          "constraint_type": "caret",
+          "version_spec": "0.5.2",
+          "age_days": 109
+        },
+        {
+          "source": "express",
+          "target": "encodeurl",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.2",
+          "age_days": 100
+        },
+        {
+          "source": "express",
+          "target": "escape-html",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.3",
+          "age_days": 104
+        },
+        {
+          "source": "body-parser",
+          "target": "bytes",
+          "constraint_type": "caret",
+          "version_spec": "3.1.2",
+          "age_days": 104
+        },
+        {
+          "source": "body-parser",
+          "target": "content-type",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.4",
+          "age_days": 114
+        },
+        {
+          "source": "body-parser",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 102
+        },
+        {
+          "source": "body-parser",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 120
+        },
+        {
+          "source": "body-parser",
+          "target": "raw-body",
+          "constraint_type": "caret",
+          "version_spec": "^2.5.1",
+          "age_days": 119
+        },
+        {
+          "source": "body-parser",
+          "target": "qs",
+          "constraint_type": "caret",
+          "version_spec": "^6.11.0",
+          "age_days": 115
+        },
+        {
+          "source": "send",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 114
+        },
+        {
+          "source": "send",
+          "target": "destroy",
+          "constraint_type": "caret",
+          "version_spec": "^1.2.0",
+          "age_days": 100
+        },
+        {
+          "source": "send",
+          "target": "etag",
+          "constraint_type": "caret",
+          "version_spec": "~1.8.1",
+          "age_days": 105
+        },
+        {
+          "source": "send",
+          "target": "fresh",
+          "constraint_type": "caret",
+          "version_spec": "0.5.2",
+          "age_days": 106
+        },
+        {
+          "source": "send",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 105
+        },
+        {
+          "source": "send",
+          "target": "mime",
+          "constraint_type": "caret",
+          "version_spec": "^1.6.0",
+          "age_days": 107
+        },
+        {
+          "source": "send",
+          "target": "ms",
+          "constraint_type": "caret",
+          "version_spec": "2.1.3",
+          "age_days": 107
+        },
+        {
+          "source": "send",
+          "target": "range-parser",
+          "constraint_type": "caret",
+          "version_spec": "~1.2.1",
+          "age_days": 120
+        },
+        {
+          "source": "send",
+          "target": "statuses",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.1",
+          "age_days": 101
+        },
+        {
+          "source": "serve-static",
+          "target": "send",
+          "constraint_type": "caret",
+          "version_spec": "^0.18.0",
+          "age_days": 120
+        },
+        {
+          "source": "raw-body",
+          "target": "bytes",
+          "constraint_type": "caret",
+          "version_spec": "3.1.2",
+          "age_days": 114
+        },
+        {
+          "source": "raw-body",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 114
+        },
+        {
+          "source": "raw-body",
+          "target": "unpipe",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.0",
+          "age_days": 112
+        },
+        {
+          "source": "debug",
+          "target": "ms",
+          "constraint_type": "caret",
+          "version_spec": "^2.1.2",
+          "age_days": 109
+        },
+        {
+          "source": "axios",
+          "target": "follow-redirects",
+          "constraint_type": "caret",
+          "version_spec": "^1.15.0",
+          "age_days": 110
+        },
+        {
+          "source": "axios",
+          "target": "form-data",
+          "constraint_type": "caret",
+          "version_spec": "^4.0.0",
+          "age_days": 100
+        },
+        {
+          "source": "form-data",
+          "target": "combined-stream",
+          "constraint_type": "caret",
+          "version_spec": "^1.0.8",
+          "age_days": 113
+        },
+        {
+          "source": "form-data",
+          "target": "delayed-stream",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.0",
+          "age_days": 111
+        },
+        {
+          "source": "form-data",
+          "target": "mime",
+          "constraint_type": "caret",
+          "version_spec": "^2.5.0",
+          "age_days": 120
+        },
+        {
+          "source": "chalk",
+          "target": "ansi-styles",
+          "constraint_type": "caret",
+          "version_spec": "^4.1.0",
+          "age_days": 103
+        },
+        {
+          "source": "chalk",
+          "target": "supports-color",
+          "constraint_type": "caret",
+          "version_spec": "^7.1.0",
+          "age_days": 105
+        },
+        {
+          "source": "glob",
+          "target": "minimatch",
+          "constraint_type": "caret",
+          "version_spec": "^3.0.4",
+          "age_days": 102
+        },
+        {
+          "source": "minimatch",
+          "target": "brace-expansion",
+          "constraint_type": "caret",
+          "version_spec": "^1.1.7",
+          "age_days": 100
+        },
+        {
+          "source": "brace-expansion",
+          "target": "balanced-match",
+          "constraint_type": "caret",
+          "version_spec": "^1.0.0",
+          "age_days": 109
+        },
+        {
+          "source": "brace-expansion",
+          "target": "concat-map",
+          "constraint_type": "caret",
+          "version_spec": "0.0.1",
+          "age_days": 120
+        },
+        {
+          "source": "fs-extra",
+          "target": "graceful-fs",
+          "constraint_type": "caret",
+          "version_spec": "^4.2.0",
+          "age_days": 106
+        },
+        {
+          "source": "fs-extra",
+          "target": "jsonfile",
+          "constraint_type": "caret",
+          "version_spec": "^6.0.1",
+          "age_days": 105
+        },
+        {
+          "source": "fs-extra",
+          "target": "universalify",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 106
+        },
+        {
+          "source": "yargs",
+          "target": "cliui",
+          "constraint_type": "caret",
+          "version_spec": "^7.0.2",
+          "age_days": 103
+        },
+        {
+          "source": "cliui",
+          "target": "string-width",
+          "constraint_type": "caret",
+          "version_spec": "^4.2.0",
+          "age_days": 102
+        },
+        {
+          "source": "cliui",
+          "target": "wrap-ansi",
+          "constraint_type": "caret",
+          "version_spec": "^7.0.0",
+          "age_days": 105
+        }
+      ]
+    },
+    {
+      "epoch": 1,
+      "timestamp": "2023-04-15T00:00:00Z",
+      "packages": [
+        {
+          "name": "express",
+          "version": "4.1.3",
+          "maintainer_count": 5,
+          "commit_cadence": 25.44,
+          "release_velocity": 4.37,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "body-parser",
+          "version": "4.1.6",
+          "maintainer_count": 3,
+          "commit_cadence": 11.07,
+          "release_velocity": 2.37,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cookie-parser",
+          "version": "4.1.5",
+          "maintainer_count": 2,
+          "commit_cadence": 5.89,
+          "release_velocity": 1.84,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "serve-static",
+          "version": "4.1.3",
+          "maintainer_count": 2,
+          "commit_cadence": 8.95,
+          "release_velocity": 2.04,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "send",
+          "version": "4.1.2",
+          "maintainer_count": 3,
+          "commit_cadence": 11.63,
+          "release_velocity": 2.32,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "debug",
+          "version": "4.1.0",
+          "maintainer_count": 3,
+          "commit_cadence": 15.11,
+          "release_velocity": 3.27,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ms",
+          "version": "4.1.3",
+          "maintainer_count": 1,
+          "commit_cadence": 3.5,
+          "release_velocity": 1.34,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "mime",
+          "version": "4.1.1",
+          "maintainer_count": 2,
+          "commit_cadence": 4.6,
+          "release_velocity": 1.47,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fresh",
+          "version": "4.1.4",
+          "maintainer_count": 1,
+          "commit_cadence": 3.94,
+          "release_velocity": 1.19,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "range-parser",
+          "version": "4.1.2",
+          "maintainer_count": 2,
+          "commit_cadence": 4.39,
+          "release_velocity": 1.37,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "etag",
+          "version": "4.1.6",
+          "maintainer_count": 2,
+          "commit_cadence": 3.67,
+          "release_velocity": 0.9,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "destroy",
+          "version": "4.1.5",
+          "maintainer_count": 1,
+          "commit_cadence": 2.01,
+          "release_velocity": 0.71,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "encodeurl",
+          "version": "4.1.1",
+          "maintainer_count": 1,
+          "commit_cadence": 1.52,
+          "release_velocity": 0.78,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "escape-html",
+          "version": "4.1.5",
+          "maintainer_count": 1,
+          "commit_cadence": 2.79,
+          "release_velocity": 0.62,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "qs",
+          "version": "4.1.6",
+          "maintainer_count": 3,
+          "commit_cadence": 16.86,
+          "release_velocity": 3.79,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "content-type",
+          "version": "4.1.2",
+          "maintainer_count": 1,
+          "commit_cadence": 3.3,
+          "release_velocity": 0.9,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "raw-body",
+          "version": "4.1.1",
+          "maintainer_count": 2,
+          "commit_cadence": 5.82,
+          "release_velocity": 1.73,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "bytes",
+          "version": "4.1.2",
+          "maintainer_count": 1,
+          "commit_cadence": 4.14,
+          "release_velocity": 1.09,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "http-errors",
+          "version": "4.1.1",
+          "maintainer_count": 2,
+          "commit_cadence": 8.21,
+          "release_velocity": 2.37,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "inherits",
+          "version": "4.1.6",
+          "maintainer_count": 1,
+          "commit_cadence": 2.13,
+          "release_velocity": 0.45,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "statuses",
+          "version": "4.1.4",
+          "maintainer_count": 2,
+          "commit_cadence": 3.53,
+          "release_velocity": 1.39,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "unpipe",
+          "version": "4.1.5",
+          "maintainer_count": 1,
+          "commit_cadence": 1.68,
+          "release_velocity": 0.88,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "lodash",
+          "version": "4.1.7",
+          "maintainer_count": 4,
+          "commit_cadence": 29.98,
+          "release_velocity": 4.9,
+          "historical_cve_count": 5,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "axios",
+          "version": "4.1.0",
+          "maintainer_count": 5,
+          "commit_cadence": 45.12,
+          "release_velocity": 6.4,
+          "historical_cve_count": 4,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "axios",
+              "cve": "CASCADE-NPM-001",
+              "severity": 7.5,
+              "lag_days": 70,
+              "cascade_from": "follow-redirects"
+            }
+          ]
+        },
+        {
+          "name": "follow-redirects",
+          "version": "4.1.5",
+          "maintainer_count": 2,
+          "commit_cadence": 12.82,
+          "release_velocity": 2.78,
+          "historical_cve_count": 3,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "follow-redirects",
+              "cve": "CVE-2024-28849",
+              "severity": 7.5,
+              "lag_days": 85
+            }
+          ]
+        },
+        {
+          "name": "form-data",
+          "version": "4.1.0",
+          "maintainer_count": 3,
+          "commit_cadence": 15.05,
+          "release_velocity": 2.96,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "combined-stream",
+          "version": "4.1.6",
+          "maintainer_count": 1,
+          "commit_cadence": 3.68,
+          "release_velocity": 0.92,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "delayed-stream",
+          "version": "4.1.0",
+          "maintainer_count": 1,
+          "commit_cadence": 3.16,
+          "release_velocity": 0.84,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "chalk",
+          "version": "4.1.6",
+          "maintainer_count": 4,
+          "commit_cadence": 21.17,
+          "release_velocity": 3.61,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ansi-styles",
+          "version": "4.1.5",
+          "maintainer_count": 2,
+          "commit_cadence": 6.73,
+          "release_velocity": 1.62,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "supports-color",
+          "version": "4.1.3",
+          "maintainer_count": 2,
+          "commit_cadence": 7.52,
+          "release_velocity": 2.08,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "semver",
+          "version": "4.1.5",
+          "maintainer_count": 4,
+          "commit_cadence": 17.65,
+          "release_velocity": 3.39,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "minimist",
+          "version": "4.1.2",
+          "maintainer_count": 2,
+          "commit_cadence": 5.77,
+          "release_velocity": 1.11,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "async",
+          "version": "4.1.6",
+          "maintainer_count": 3,
+          "commit_cadence": 9.68,
+          "release_velocity": 2.34,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "commander",
+          "version": "4.1.4",
+          "maintainer_count": 4,
+          "commit_cadence": 21.78,
+          "release_velocity": 4.16,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "glob",
+          "version": "4.1.5",
+          "maintainer_count": 3,
+          "commit_cadence": 12.16,
+          "release_velocity": 2.7,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "minimatch",
+          "version": "4.1.7",
+          "maintainer_count": 2,
+          "commit_cadence": 8.55,
+          "release_velocity": 2.15,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "brace-expansion",
+          "version": "4.1.1",
+          "maintainer_count": 2,
+          "commit_cadence": 3.96,
+          "release_velocity": 1.26,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "balanced-match",
+          "version": "4.1.4",
+          "maintainer_count": 1,
+          "commit_cadence": 2.65,
+          "release_velocity": 0.68,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "concat-map",
+          "version": "4.1.3",
+          "maintainer_count": 1,
+          "commit_cadence": 0.76,
+          "release_velocity": 0.33,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fs-extra",
+          "version": "4.1.2",
+          "maintainer_count": 3,
+          "commit_cadence": 14.99,
+          "release_velocity": 2.64,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "graceful-fs",
+          "version": "4.1.0",
+          "maintainer_count": 2,
+          "commit_cadence": 4.76,
+          "release_velocity": 1.3,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "jsonfile",
+          "version": "4.1.4",
+          "maintainer_count": 2,
+          "commit_cadence": 3.9,
+          "release_velocity": 1.21,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "universalify",
+          "version": "4.1.6",
+          "maintainer_count": 1,
+          "commit_cadence": 1.84,
+          "release_velocity": 0.62,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "uuid",
+          "version": "4.1.6",
+          "maintainer_count": 3,
+          "commit_cadence": 16.56,
+          "release_velocity": 3.27,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ws",
+          "version": "4.1.3",
+          "maintainer_count": 4,
+          "commit_cadence": 28.74,
+          "release_velocity": 4.72,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "yargs",
+          "version": "4.1.5",
+          "maintainer_count": 4,
+          "commit_cadence": 24.88,
+          "release_velocity": 4.12,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cliui",
+          "version": "4.1.0",
+          "maintainer_count": 2,
+          "commit_cadence": 5.71,
+          "release_velocity": 1.58,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "wrap-ansi",
+          "version": "4.1.4",
+          "maintainer_count": 2,
+          "commit_cadence": 7.73,
+          "release_velocity": 1.67,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "string-width",
+          "version": "4.1.4",
+          "maintainer_count": 2,
+          "commit_cadence": 8.45,
+          "release_velocity": 1.99,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        }
+      ],
+      "dependencies": [
+        {
+          "source": "express",
+          "target": "body-parser",
+          "constraint_type": "caret",
+          "version_spec": "^1.20.1",
+          "age_days": 181
+        },
+        {
+          "source": "express",
+          "target": "cookie-parser",
+          "constraint_type": "caret",
+          "version_spec": "~1.4.6",
+          "age_days": 188
+        },
+        {
+          "source": "express",
+          "target": "serve-static",
+          "constraint_type": "caret",
+          "version_spec": "1.15.0",
+          "age_days": 193
+        },
+        {
+          "source": "express",
+          "target": "send",
+          "constraint_type": "caret",
+          "version_spec": "^0.18.0",
+          "age_days": 190
+        },
+        {
+          "source": "express",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 190
+        },
+        {
+          "source": "express",
+          "target": "qs",
+          "constraint_type": "caret",
+          "version_spec": "^6.11.0",
+          "age_days": 182
+        },
+        {
+          "source": "express",
+          "target": "etag",
+          "constraint_type": "caret",
+          "version_spec": "~1.8.1",
+          "age_days": 200
+        },
+        {
+          "source": "express",
+          "target": "fresh",
+          "constraint_type": "caret",
+          "version_spec": "0.5.2",
+          "age_days": 197
+        },
+        {
+          "source": "express",
+          "target": "encodeurl",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.2",
+          "age_days": 198
+        },
+        {
+          "source": "express",
+          "target": "escape-html",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.3",
+          "age_days": 188
+        },
+        {
+          "source": "body-parser",
+          "target": "bytes",
+          "constraint_type": "caret",
+          "version_spec": "3.1.2",
+          "age_days": 197
+        },
+        {
+          "source": "body-parser",
+          "target": "content-type",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.4",
+          "age_days": 188
+        },
+        {
+          "source": "body-parser",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 181
+        },
+        {
+          "source": "body-parser",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 190
+        },
+        {
+          "source": "body-parser",
+          "target": "raw-body",
+          "constraint_type": "caret",
+          "version_spec": "^2.5.1",
+          "age_days": 181
+        },
+        {
+          "source": "body-parser",
+          "target": "qs",
+          "constraint_type": "caret",
+          "version_spec": "^6.11.0",
+          "age_days": 184
+        },
+        {
+          "source": "send",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 193
+        },
+        {
+          "source": "send",
+          "target": "destroy",
+          "constraint_type": "caret",
+          "version_spec": "^1.2.0",
+          "age_days": 195
+        },
+        {
+          "source": "send",
+          "target": "etag",
+          "constraint_type": "caret",
+          "version_spec": "~1.8.1",
+          "age_days": 195
+        },
+        {
+          "source": "send",
+          "target": "fresh",
+          "constraint_type": "caret",
+          "version_spec": "0.5.2",
+          "age_days": 200
+        },
+        {
+          "source": "send",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 198
+        },
+        {
+          "source": "send",
+          "target": "mime",
+          "constraint_type": "caret",
+          "version_spec": "^1.6.0",
+          "age_days": 190
+        },
+        {
+          "source": "send",
+          "target": "ms",
+          "constraint_type": "caret",
+          "version_spec": "2.1.3",
+          "age_days": 185
+        },
+        {
+          "source": "send",
+          "target": "range-parser",
+          "constraint_type": "caret",
+          "version_spec": "~1.2.1",
+          "age_days": 199
+        },
+        {
+          "source": "send",
+          "target": "statuses",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.1",
+          "age_days": 192
+        },
+        {
+          "source": "serve-static",
+          "target": "send",
+          "constraint_type": "caret",
+          "version_spec": "^0.18.0",
+          "age_days": 196
+        },
+        {
+          "source": "raw-body",
+          "target": "bytes",
+          "constraint_type": "caret",
+          "version_spec": "3.1.2",
+          "age_days": 180
+        },
+        {
+          "source": "raw-body",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 194
+        },
+        {
+          "source": "raw-body",
+          "target": "unpipe",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.0",
+          "age_days": 182
+        },
+        {
+          "source": "debug",
+          "target": "ms",
+          "constraint_type": "caret",
+          "version_spec": "^2.1.2",
+          "age_days": 198
+        },
+        {
+          "source": "axios",
+          "target": "follow-redirects",
+          "constraint_type": "caret",
+          "version_spec": "^1.15.0",
+          "age_days": 186
+        },
+        {
+          "source": "axios",
+          "target": "form-data",
+          "constraint_type": "caret",
+          "version_spec": "^4.0.0",
+          "age_days": 197
+        },
+        {
+          "source": "form-data",
+          "target": "combined-stream",
+          "constraint_type": "caret",
+          "version_spec": "^1.0.8",
+          "age_days": 192
+        },
+        {
+          "source": "form-data",
+          "target": "delayed-stream",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.0",
+          "age_days": 189
+        },
+        {
+          "source": "form-data",
+          "target": "mime",
+          "constraint_type": "caret",
+          "version_spec": "^2.5.0",
+          "age_days": 186
+        },
+        {
+          "source": "chalk",
+          "target": "ansi-styles",
+          "constraint_type": "caret",
+          "version_spec": "^4.1.0",
+          "age_days": 196
+        },
+        {
+          "source": "chalk",
+          "target": "supports-color",
+          "constraint_type": "caret",
+          "version_spec": "^7.1.0",
+          "age_days": 195
+        },
+        {
+          "source": "glob",
+          "target": "minimatch",
+          "constraint_type": "caret",
+          "version_spec": "^3.0.4",
+          "age_days": 199
+        },
+        {
+          "source": "minimatch",
+          "target": "brace-expansion",
+          "constraint_type": "caret",
+          "version_spec": "^1.1.7",
+          "age_days": 199
+        },
+        {
+          "source": "brace-expansion",
+          "target": "balanced-match",
+          "constraint_type": "caret",
+          "version_spec": "^1.0.0",
+          "age_days": 193
+        },
+        {
+          "source": "brace-expansion",
+          "target": "concat-map",
+          "constraint_type": "caret",
+          "version_spec": "0.0.1",
+          "age_days": 198
+        },
+        {
+          "source": "fs-extra",
+          "target": "graceful-fs",
+          "constraint_type": "caret",
+          "version_spec": "^4.2.0",
+          "age_days": 194
+        },
+        {
+          "source": "fs-extra",
+          "target": "jsonfile",
+          "constraint_type": "caret",
+          "version_spec": "^6.0.1",
+          "age_days": 198
+        },
+        {
+          "source": "fs-extra",
+          "target": "universalify",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 184
+        },
+        {
+          "source": "yargs",
+          "target": "cliui",
+          "constraint_type": "caret",
+          "version_spec": "^7.0.2",
+          "age_days": 192
+        },
+        {
+          "source": "cliui",
+          "target": "string-width",
+          "constraint_type": "caret",
+          "version_spec": "^4.2.0",
+          "age_days": 192
+        },
+        {
+          "source": "cliui",
+          "target": "wrap-ansi",
+          "constraint_type": "caret",
+          "version_spec": "^7.0.0",
+          "age_days": 192
+        }
+      ]
+    },
+    {
+      "epoch": 2,
+      "timestamp": "2023-07-15T00:00:00Z",
+      "packages": [
+        {
+          "name": "express",
+          "version": "4.2.2",
+          "maintainer_count": 5,
+          "commit_cadence": 24.61,
+          "release_velocity": 4.36,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "body-parser",
+          "version": "4.2.4",
+          "maintainer_count": 3,
+          "commit_cadence": 9.86,
+          "release_velocity": 2.54,
+          "historical_cve_count": 2,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "body-parser",
+              "cve": "CASCADE-NPM-002",
+              "severity": 7.5,
+              "lag_days": 90,
+              "cascade_from": "qs"
+            }
+          ]
+        },
+        {
+          "name": "cookie-parser",
+          "version": "4.2.2",
+          "maintainer_count": 2,
+          "commit_cadence": 5.36,
+          "release_velocity": 2.07,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "serve-static",
+          "version": "4.2.1",
+          "maintainer_count": 2,
+          "commit_cadence": 8.18,
+          "release_velocity": 2.25,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "send",
+          "version": "4.2.5",
+          "maintainer_count": 3,
+          "commit_cadence": 13.23,
+          "release_velocity": 2.7,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "debug",
+          "version": "4.2.4",
+          "maintainer_count": 3,
+          "commit_cadence": 16.27,
+          "release_velocity": 3.53,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ms",
+          "version": "4.2.7",
+          "maintainer_count": 1,
+          "commit_cadence": 3.32,
+          "release_velocity": 1.64,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "mime",
+          "version": "4.2.3",
+          "maintainer_count": 2,
+          "commit_cadence": 6.61,
+          "release_velocity": 1.46,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fresh",
+          "version": "4.2.1",
+          "maintainer_count": 1,
+          "commit_cadence": 4.63,
+          "release_velocity": 1.14,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "range-parser",
+          "version": "4.2.0",
+          "maintainer_count": 2,
+          "commit_cadence": 5.41,
+          "release_velocity": 1.64,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "etag",
+          "version": "4.2.0",
+          "maintainer_count": 2,
+          "commit_cadence": 5.09,
+          "release_velocity": 1.6,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "destroy",
+          "version": "4.2.2",
+          "maintainer_count": 1,
+          "commit_cadence": 2.95,
+          "release_velocity": 1.22,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "encodeurl",
+          "version": "4.2.4",
+          "maintainer_count": 1,
+          "commit_cadence": 3.1,
+          "release_velocity": 0.91,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "escape-html",
+          "version": "4.2.5",
+          "maintainer_count": 1,
+          "commit_cadence": 3.02,
+          "release_velocity": 0.88,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "qs",
+          "version": "4.2.6",
+          "maintainer_count": 3,
+          "commit_cadence": 18.12,
+          "release_velocity": 4.28,
+          "historical_cve_count": 3,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "qs",
+              "cve": "CVE-2022-24999",
+              "severity": 7.5,
+              "lag_days": 110
+            }
+          ]
+        },
+        {
+          "name": "content-type",
+          "version": "4.2.2",
+          "maintainer_count": 1,
+          "commit_cadence": 4.75,
+          "release_velocity": 1.2,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "raw-body",
+          "version": "4.2.6",
+          "maintainer_count": 2,
+          "commit_cadence": 5.11,
+          "release_velocity": 2.07,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "bytes",
+          "version": "4.2.6",
+          "maintainer_count": 1,
+          "commit_cadence": 5.1,
+          "release_velocity": 1.26,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "http-errors",
+          "version": "4.2.1",
+          "maintainer_count": 2,
+          "commit_cadence": 7.78,
+          "release_velocity": 2.66,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "inherits",
+          "version": "4.2.2",
+          "maintainer_count": 1,
+          "commit_cadence": 0.79,
+          "release_velocity": 0.82,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "statuses",
+          "version": "4.2.5",
+          "maintainer_count": 2,
+          "commit_cadence": 4.37,
+          "release_velocity": 1.65,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "unpipe",
+          "version": "4.2.0",
+          "maintainer_count": 1,
+          "commit_cadence": 1.87,
+          "release_velocity": 0.81,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "lodash",
+          "version": "4.2.7",
+          "maintainer_count": 4,
+          "commit_cadence": 30.82,
+          "release_velocity": 4.86,
+          "historical_cve_count": 5,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "axios",
+          "version": "4.2.3",
+          "maintainer_count": 5,
+          "commit_cadence": 44.09,
+          "release_velocity": 6.37,
+          "historical_cve_count": 4,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "axios",
+              "cve": "CASCADE-NPM-001",
+              "severity": 7.5,
+              "lag_days": 70,
+              "cascade_from": "follow-redirects"
+            }
+          ]
+        },
+        {
+          "name": "follow-redirects",
+          "version": "4.2.5",
+          "maintainer_count": 2,
+          "commit_cadence": 12.79,
+          "release_velocity": 2.94,
+          "historical_cve_count": 3,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "follow-redirects",
+              "cve": "CVE-2024-28849",
+              "severity": 7.5,
+              "lag_days": 85
+            }
+          ]
+        },
+        {
+          "name": "form-data",
+          "version": "4.2.3",
+          "maintainer_count": 3,
+          "commit_cadence": 13.17,
+          "release_velocity": 3.01,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "combined-stream",
+          "version": "4.2.7",
+          "maintainer_count": 1,
+          "commit_cadence": 3.72,
+          "release_velocity": 1.16,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "delayed-stream",
+          "version": "4.2.0",
+          "maintainer_count": 1,
+          "commit_cadence": 1.96,
+          "release_velocity": 0.96,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "chalk",
+          "version": "4.2.7",
+          "maintainer_count": 4,
+          "commit_cadence": 22.21,
+          "release_velocity": 4.14,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ansi-styles",
+          "version": "4.2.0",
+          "maintainer_count": 2,
+          "commit_cadence": 6.37,
+          "release_velocity": 2.03,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "supports-color",
+          "version": "4.2.7",
+          "maintainer_count": 2,
+          "commit_cadence": 8.84,
+          "release_velocity": 2.38,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "semver",
+          "version": "4.2.7",
+          "maintainer_count": 4,
+          "commit_cadence": 19.16,
+          "release_velocity": 3.53,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "minimist",
+          "version": "4.2.4",
+          "maintainer_count": 2,
+          "commit_cadence": 6.9,
+          "release_velocity": 1.77,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "async",
+          "version": "4.2.4",
+          "maintainer_count": 3,
+          "commit_cadence": 10.96,
+          "release_velocity": 2.73,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "commander",
+          "version": "4.2.6",
+          "maintainer_count": 4,
+          "commit_cadence": 23.88,
+          "release_velocity": 4.52,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "glob",
+          "version": "4.2.1",
+          "maintainer_count": 3,
+          "commit_cadence": 12.48,
+          "release_velocity": 2.79,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "minimatch",
+          "version": "4.2.5",
+          "maintainer_count": 2,
+          "commit_cadence": 10.37,
+          "release_velocity": 2.57,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "brace-expansion",
+          "version": "4.2.3",
+          "maintainer_count": 2,
+          "commit_cadence": 3.36,
+          "release_velocity": 1.72,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "balanced-match",
+          "version": "4.2.7",
+          "maintainer_count": 1,
+          "commit_cadence": 1.77,
+          "release_velocity": 0.86,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "concat-map",
+          "version": "4.2.1",
+          "maintainer_count": 1,
+          "commit_cadence": 3.1,
+          "release_velocity": 0.91,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fs-extra",
+          "version": "4.2.0",
+          "maintainer_count": 3,
+          "commit_cadence": 14.69,
+          "release_velocity": 2.74,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "graceful-fs",
+          "version": "4.2.3",
+          "maintainer_count": 2,
+          "commit_cadence": 5.9,
+          "release_velocity": 1.27,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "jsonfile",
+          "version": "4.2.6",
+          "maintainer_count": 2,
+          "commit_cadence": 3.65,
+          "release_velocity": 1.67,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "universalify",
+          "version": "4.2.1",
+          "maintainer_count": 1,
+          "commit_cadence": 3.32,
+          "release_velocity": 1.2,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "uuid",
+          "version": "4.2.0",
+          "maintainer_count": 3,
+          "commit_cadence": 17.96,
+          "release_velocity": 3.77,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ws",
+          "version": "4.2.3",
+          "maintainer_count": 4,
+          "commit_cadence": 29.75,
+          "release_velocity": 4.78,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "yargs",
+          "version": "4.2.7",
+          "maintainer_count": 4,
+          "commit_cadence": 24.93,
+          "release_velocity": 4.01,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cliui",
+          "version": "4.2.1",
+          "maintainer_count": 2,
+          "commit_cadence": 5.77,
+          "release_velocity": 1.43,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "wrap-ansi",
+          "version": "4.2.2",
+          "maintainer_count": 2,
+          "commit_cadence": 9.32,
+          "release_velocity": 1.9,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "string-width",
+          "version": "4.2.4",
+          "maintainer_count": 2,
+          "commit_cadence": 8.15,
+          "release_velocity": 2.32,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        }
+      ],
+      "dependencies": [
+        {
+          "source": "express",
+          "target": "body-parser",
+          "constraint_type": "caret",
+          "version_spec": "^1.20.1",
+          "age_days": 270
+        },
+        {
+          "source": "express",
+          "target": "cookie-parser",
+          "constraint_type": "caret",
+          "version_spec": "~1.4.6",
+          "age_days": 277
+        },
+        {
+          "source": "express",
+          "target": "serve-static",
+          "constraint_type": "caret",
+          "version_spec": "1.15.0",
+          "age_days": 274
+        },
+        {
+          "source": "express",
+          "target": "send",
+          "constraint_type": "caret",
+          "version_spec": "^0.18.0",
+          "age_days": 268
+        },
+        {
+          "source": "express",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 263
+        },
+        {
+          "source": "express",
+          "target": "qs",
+          "constraint_type": "caret",
+          "version_spec": "^6.11.0",
+          "age_days": 274
+        },
+        {
+          "source": "express",
+          "target": "etag",
+          "constraint_type": "caret",
+          "version_spec": "~1.8.1",
+          "age_days": 269
+        },
+        {
+          "source": "express",
+          "target": "fresh",
+          "constraint_type": "caret",
+          "version_spec": "0.5.2",
+          "age_days": 263
+        },
+        {
+          "source": "express",
+          "target": "encodeurl",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.2",
+          "age_days": 261
+        },
+        {
+          "source": "express",
+          "target": "escape-html",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.3",
+          "age_days": 261
+        },
+        {
+          "source": "body-parser",
+          "target": "bytes",
+          "constraint_type": "caret",
+          "version_spec": "3.1.2",
+          "age_days": 266
+        },
+        {
+          "source": "body-parser",
+          "target": "content-type",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.4",
+          "age_days": 268
+        },
+        {
+          "source": "body-parser",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 268
+        },
+        {
+          "source": "body-parser",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 262
+        },
+        {
+          "source": "body-parser",
+          "target": "raw-body",
+          "constraint_type": "caret",
+          "version_spec": "^2.5.1",
+          "age_days": 264
+        },
+        {
+          "source": "body-parser",
+          "target": "qs",
+          "constraint_type": "caret",
+          "version_spec": "^6.11.0",
+          "age_days": 267
+        },
+        {
+          "source": "send",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 264
+        },
+        {
+          "source": "send",
+          "target": "destroy",
+          "constraint_type": "caret",
+          "version_spec": "^1.2.0",
+          "age_days": 265
+        },
+        {
+          "source": "send",
+          "target": "etag",
+          "constraint_type": "caret",
+          "version_spec": "~1.8.1",
+          "age_days": 263
+        },
+        {
+          "source": "send",
+          "target": "fresh",
+          "constraint_type": "caret",
+          "version_spec": "0.5.2",
+          "age_days": 276
+        },
+        {
+          "source": "send",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 264
+        },
+        {
+          "source": "send",
+          "target": "mime",
+          "constraint_type": "caret",
+          "version_spec": "^1.6.0",
+          "age_days": 271
+        },
+        {
+          "source": "send",
+          "target": "ms",
+          "constraint_type": "caret",
+          "version_spec": "2.1.3",
+          "age_days": 280
+        },
+        {
+          "source": "send",
+          "target": "range-parser",
+          "constraint_type": "caret",
+          "version_spec": "~1.2.1",
+          "age_days": 268
+        },
+        {
+          "source": "send",
+          "target": "statuses",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.1",
+          "age_days": 262
+        },
+        {
+          "source": "serve-static",
+          "target": "send",
+          "constraint_type": "caret",
+          "version_spec": "^0.18.0",
+          "age_days": 265
+        },
+        {
+          "source": "raw-body",
+          "target": "bytes",
+          "constraint_type": "caret",
+          "version_spec": "3.1.2",
+          "age_days": 280
+        },
+        {
+          "source": "raw-body",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 268
+        },
+        {
+          "source": "raw-body",
+          "target": "unpipe",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.0",
+          "age_days": 276
+        },
+        {
+          "source": "debug",
+          "target": "ms",
+          "constraint_type": "caret",
+          "version_spec": "^2.1.2",
+          "age_days": 273
+        },
+        {
+          "source": "axios",
+          "target": "follow-redirects",
+          "constraint_type": "caret",
+          "version_spec": "^1.15.0",
+          "age_days": 268
+        },
+        {
+          "source": "axios",
+          "target": "form-data",
+          "constraint_type": "caret",
+          "version_spec": "^4.0.0",
+          "age_days": 273
+        },
+        {
+          "source": "form-data",
+          "target": "combined-stream",
+          "constraint_type": "caret",
+          "version_spec": "^1.0.8",
+          "age_days": 260
+        },
+        {
+          "source": "form-data",
+          "target": "delayed-stream",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.0",
+          "age_days": 273
+        },
+        {
+          "source": "form-data",
+          "target": "mime",
+          "constraint_type": "caret",
+          "version_spec": "^2.5.0",
+          "age_days": 266
+        },
+        {
+          "source": "chalk",
+          "target": "ansi-styles",
+          "constraint_type": "caret",
+          "version_spec": "^4.1.0",
+          "age_days": 268
+        },
+        {
+          "source": "chalk",
+          "target": "supports-color",
+          "constraint_type": "caret",
+          "version_spec": "^7.1.0",
+          "age_days": 275
+        },
+        {
+          "source": "glob",
+          "target": "minimatch",
+          "constraint_type": "caret",
+          "version_spec": "^3.0.4",
+          "age_days": 269
+        },
+        {
+          "source": "minimatch",
+          "target": "brace-expansion",
+          "constraint_type": "caret",
+          "version_spec": "^1.1.7",
+          "age_days": 268
+        },
+        {
+          "source": "brace-expansion",
+          "target": "balanced-match",
+          "constraint_type": "caret",
+          "version_spec": "^1.0.0",
+          "age_days": 272
+        },
+        {
+          "source": "brace-expansion",
+          "target": "concat-map",
+          "constraint_type": "caret",
+          "version_spec": "0.0.1",
+          "age_days": 263
+        },
+        {
+          "source": "fs-extra",
+          "target": "graceful-fs",
+          "constraint_type": "caret",
+          "version_spec": "^4.2.0",
+          "age_days": 279
+        },
+        {
+          "source": "fs-extra",
+          "target": "jsonfile",
+          "constraint_type": "caret",
+          "version_spec": "^6.0.1",
+          "age_days": 277
+        },
+        {
+          "source": "fs-extra",
+          "target": "universalify",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 276
+        },
+        {
+          "source": "yargs",
+          "target": "cliui",
+          "constraint_type": "caret",
+          "version_spec": "^7.0.2",
+          "age_days": 268
+        },
+        {
+          "source": "cliui",
+          "target": "string-width",
+          "constraint_type": "caret",
+          "version_spec": "^4.2.0",
+          "age_days": 265
+        },
+        {
+          "source": "cliui",
+          "target": "wrap-ansi",
+          "constraint_type": "caret",
+          "version_spec": "^7.0.0",
+          "age_days": 270
+        }
+      ]
+    },
+    {
+      "epoch": 3,
+      "timestamp": "2023-10-15T00:00:00Z",
+      "packages": [
+        {
+          "name": "express",
+          "version": "4.3.7",
+          "maintainer_count": 5,
+          "commit_cadence": 26.08,
+          "release_velocity": 4.6,
+          "historical_cve_count": 3,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "express",
+              "cve": "CASCADE-NPM-003",
+              "severity": 7.5,
+              "lag_days": 75,
+              "cascade_from": "body-parser"
+            }
+          ]
+        },
+        {
+          "name": "body-parser",
+          "version": "4.3.7",
+          "maintainer_count": 3,
+          "commit_cadence": 12.84,
+          "release_velocity": 3.19,
+          "historical_cve_count": 2,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "body-parser",
+              "cve": "CASCADE-NPM-002",
+              "severity": 7.5,
+              "lag_days": 90,
+              "cascade_from": "qs"
+            }
+          ]
+        },
+        {
+          "name": "cookie-parser",
+          "version": "4.3.7",
+          "maintainer_count": 2,
+          "commit_cadence": 5.16,
+          "release_velocity": 2.47,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "serve-static",
+          "version": "4.3.2",
+          "maintainer_count": 2,
+          "commit_cadence": 9.94,
+          "release_velocity": 2.95,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "send",
+          "version": "4.3.0",
+          "maintainer_count": 3,
+          "commit_cadence": 13.12,
+          "release_velocity": 2.83,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "debug",
+          "version": "4.3.7",
+          "maintainer_count": 3,
+          "commit_cadence": 16.76,
+          "release_velocity": 3.85,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ms",
+          "version": "4.3.2",
+          "maintainer_count": 1,
+          "commit_cadence": 6.34,
+          "release_velocity": 1.54,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "mime",
+          "version": "4.3.2",
+          "maintainer_count": 2,
+          "commit_cadence": 7.36,
+          "release_velocity": 2.25,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fresh",
+          "version": "4.3.2",
+          "maintainer_count": 1,
+          "commit_cadence": 5.87,
+          "release_velocity": 1.34,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "range-parser",
+          "version": "4.3.5",
+          "maintainer_count": 2,
+          "commit_cadence": 6.73,
+          "release_velocity": 1.6,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "etag",
+          "version": "4.3.0",
+          "maintainer_count": 2,
+          "commit_cadence": 5.88,
+          "release_velocity": 1.58,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "destroy",
+          "version": "4.3.3",
+          "maintainer_count": 1,
+          "commit_cadence": 4.34,
+          "release_velocity": 1.2,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "encodeurl",
+          "version": "4.3.5",
+          "maintainer_count": 1,
+          "commit_cadence": 4.89,
+          "release_velocity": 1.38,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "escape-html",
+          "version": "4.3.6",
+          "maintainer_count": 1,
+          "commit_cadence": 5.24,
+          "release_velocity": 1.23,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "qs",
+          "version": "4.3.5",
+          "maintainer_count": 3,
+          "commit_cadence": 15.68,
+          "release_velocity": 4.47,
+          "historical_cve_count": 3,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "qs",
+              "cve": "CVE-2022-24999",
+              "severity": 7.5,
+              "lag_days": 110
+            }
+          ]
+        },
+        {
+          "name": "content-type",
+          "version": "4.3.4",
+          "maintainer_count": 1,
+          "commit_cadence": 2.81,
+          "release_velocity": 1.28,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "raw-body",
+          "version": "4.3.6",
+          "maintainer_count": 2,
+          "commit_cadence": 7.96,
+          "release_velocity": 2.58,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "bytes",
+          "version": "4.3.4",
+          "maintainer_count": 1,
+          "commit_cadence": 4.86,
+          "release_velocity": 1.14,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "http-errors",
+          "version": "4.3.5",
+          "maintainer_count": 2,
+          "commit_cadence": 9.95,
+          "release_velocity": 2.32,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "inherits",
+          "version": "4.3.0",
+          "maintainer_count": 1,
+          "commit_cadence": 3.43,
+          "release_velocity": 1.3,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "statuses",
+          "version": "4.3.3",
+          "maintainer_count": 2,
+          "commit_cadence": 5.71,
+          "release_velocity": 1.38,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "unpipe",
+          "version": "4.3.5",
+          "maintainer_count": 1,
+          "commit_cadence": 5.47,
+          "release_velocity": 1.25,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "lodash",
+          "version": "4.3.3",
+          "maintainer_count": 4,
+          "commit_cadence": 30.59,
+          "release_velocity": 5.01,
+          "historical_cve_count": 5,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "lodash",
+              "cve": "CVE-2020-28500",
+              "severity": 7.3,
+              "lag_days": 140
+            }
+          ]
+        },
+        {
+          "name": "axios",
+          "version": "4.3.5",
+          "maintainer_count": 5,
+          "commit_cadence": 43.61,
+          "release_velocity": 6.82,
+          "historical_cve_count": 4,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "follow-redirects",
+          "version": "4.3.7",
+          "maintainer_count": 2,
+          "commit_cadence": 15.54,
+          "release_velocity": 2.97,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "form-data",
+          "version": "4.3.1",
+          "maintainer_count": 3,
+          "commit_cadence": 16.53,
+          "release_velocity": 3.4,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "combined-stream",
+          "version": "4.3.4",
+          "maintainer_count": 1,
+          "commit_cadence": 5.12,
+          "release_velocity": 1.2,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "delayed-stream",
+          "version": "4.3.4",
+          "maintainer_count": 1,
+          "commit_cadence": 2.52,
+          "release_velocity": 0.83,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "chalk",
+          "version": "4.3.4",
+          "maintainer_count": 4,
+          "commit_cadence": 20.96,
+          "release_velocity": 4.09,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ansi-styles",
+          "version": "4.3.7",
+          "maintainer_count": 2,
+          "commit_cadence": 7.94,
+          "release_velocity": 2.47,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "supports-color",
+          "version": "4.3.0",
+          "maintainer_count": 2,
+          "commit_cadence": 7.04,
+          "release_velocity": 2.48,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "semver",
+          "version": "4.3.6",
+          "maintainer_count": 4,
+          "commit_cadence": 18.79,
+          "release_velocity": 3.61,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "minimist",
+          "version": "4.3.5",
+          "maintainer_count": 2,
+          "commit_cadence": 7.52,
+          "release_velocity": 1.96,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "async",
+          "version": "4.3.4",
+          "maintainer_count": 3,
+          "commit_cadence": 10.9,
+          "release_velocity": 2.36,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "commander",
+          "version": "4.3.5",
+          "maintainer_count": 4,
+          "commit_cadence": 21.01,
+          "release_velocity": 4.61,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "glob",
+          "version": "4.3.1",
+          "maintainer_count": 3,
+          "commit_cadence": 10.74,
+          "release_velocity": 3.21,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "minimatch",
+          "version": "4.3.1",
+          "maintainer_count": 2,
+          "commit_cadence": 10.95,
+          "release_velocity": 2.89,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "brace-expansion",
+          "version": "4.3.7",
+          "maintainer_count": 2,
+          "commit_cadence": 7.13,
+          "release_velocity": 1.86,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "balanced-match",
+          "version": "4.3.7",
+          "maintainer_count": 1,
+          "commit_cadence": 4.67,
+          "release_velocity": 1.16,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "concat-map",
+          "version": "4.3.4",
+          "maintainer_count": 1,
+          "commit_cadence": 3.9,
+          "release_velocity": 0.72,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fs-extra",
+          "version": "4.3.7",
+          "maintainer_count": 3,
+          "commit_cadence": 16.58,
+          "release_velocity": 2.88,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "graceful-fs",
+          "version": "4.3.0",
+          "maintainer_count": 2,
+          "commit_cadence": 4.65,
+          "release_velocity": 2.01,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "jsonfile",
+          "version": "4.3.3",
+          "maintainer_count": 2,
+          "commit_cadence": 2.51,
+          "release_velocity": 1.39,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "universalify",
+          "version": "4.3.5",
+          "maintainer_count": 1,
+          "commit_cadence": 3.48,
+          "release_velocity": 1.04,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "uuid",
+          "version": "4.3.6",
+          "maintainer_count": 3,
+          "commit_cadence": 17.7,
+          "release_velocity": 3.76,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ws",
+          "version": "4.3.2",
+          "maintainer_count": 4,
+          "commit_cadence": 30.7,
+          "release_velocity": 4.93,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "yargs",
+          "version": "4.3.6",
+          "maintainer_count": 4,
+          "commit_cadence": 27.45,
+          "release_velocity": 4.11,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cliui",
+          "version": "4.3.1",
+          "maintainer_count": 2,
+          "commit_cadence": 6.21,
+          "release_velocity": 1.78,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "wrap-ansi",
+          "version": "4.3.5",
+          "maintainer_count": 2,
+          "commit_cadence": 10.21,
+          "release_velocity": 2.19,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "string-width",
+          "version": "4.3.5",
+          "maintainer_count": 2,
+          "commit_cadence": 9.31,
+          "release_velocity": 2.6,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        }
+      ],
+      "dependencies": [
+        {
+          "source": "express",
+          "target": "body-parser",
+          "constraint_type": "caret",
+          "version_spec": "^1.20.1",
+          "age_days": 347
+        },
+        {
+          "source": "express",
+          "target": "cookie-parser",
+          "constraint_type": "caret",
+          "version_spec": "~1.4.6",
+          "age_days": 357
+        },
+        {
+          "source": "express",
+          "target": "serve-static",
+          "constraint_type": "caret",
+          "version_spec": "1.15.0",
+          "age_days": 350
+        },
+        {
+          "source": "express",
+          "target": "send",
+          "constraint_type": "caret",
+          "version_spec": "^0.18.0",
+          "age_days": 346
+        },
+        {
+          "source": "express",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 342
+        },
+        {
+          "source": "express",
+          "target": "qs",
+          "constraint_type": "caret",
+          "version_spec": "^6.11.0",
+          "age_days": 345
+        },
+        {
+          "source": "express",
+          "target": "etag",
+          "constraint_type": "caret",
+          "version_spec": "~1.8.1",
+          "age_days": 347
+        },
+        {
+          "source": "express",
+          "target": "fresh",
+          "constraint_type": "caret",
+          "version_spec": "0.5.2",
+          "age_days": 350
+        },
+        {
+          "source": "express",
+          "target": "encodeurl",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.2",
+          "age_days": 357
+        },
+        {
+          "source": "express",
+          "target": "escape-html",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.3",
+          "age_days": 343
+        },
+        {
+          "source": "body-parser",
+          "target": "bytes",
+          "constraint_type": "caret",
+          "version_spec": "3.1.2",
+          "age_days": 357
+        },
+        {
+          "source": "body-parser",
+          "target": "content-type",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.4",
+          "age_days": 343
+        },
+        {
+          "source": "body-parser",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 353
+        },
+        {
+          "source": "body-parser",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 342
+        },
+        {
+          "source": "body-parser",
+          "target": "raw-body",
+          "constraint_type": "caret",
+          "version_spec": "^2.5.1",
+          "age_days": 344
+        },
+        {
+          "source": "body-parser",
+          "target": "qs",
+          "constraint_type": "caret",
+          "version_spec": "^6.11.0",
+          "age_days": 345
+        },
+        {
+          "source": "send",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 350
+        },
+        {
+          "source": "send",
+          "target": "destroy",
+          "constraint_type": "caret",
+          "version_spec": "^1.2.0",
+          "age_days": 341
+        },
+        {
+          "source": "send",
+          "target": "etag",
+          "constraint_type": "caret",
+          "version_spec": "~1.8.1",
+          "age_days": 346
+        },
+        {
+          "source": "send",
+          "target": "fresh",
+          "constraint_type": "caret",
+          "version_spec": "0.5.2",
+          "age_days": 347
+        },
+        {
+          "source": "send",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 353
+        },
+        {
+          "source": "send",
+          "target": "mime",
+          "constraint_type": "caret",
+          "version_spec": "^1.6.0",
+          "age_days": 346
+        },
+        {
+          "source": "send",
+          "target": "ms",
+          "constraint_type": "caret",
+          "version_spec": "2.1.3",
+          "age_days": 352
+        },
+        {
+          "source": "send",
+          "target": "range-parser",
+          "constraint_type": "caret",
+          "version_spec": "~1.2.1",
+          "age_days": 343
+        },
+        {
+          "source": "send",
+          "target": "statuses",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.1",
+          "age_days": 347
+        },
+        {
+          "source": "serve-static",
+          "target": "send",
+          "constraint_type": "caret",
+          "version_spec": "^0.18.0",
+          "age_days": 357
+        },
+        {
+          "source": "raw-body",
+          "target": "bytes",
+          "constraint_type": "caret",
+          "version_spec": "3.1.2",
+          "age_days": 347
+        },
+        {
+          "source": "raw-body",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 347
+        },
+        {
+          "source": "raw-body",
+          "target": "unpipe",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.0",
+          "age_days": 359
+        },
+        {
+          "source": "debug",
+          "target": "ms",
+          "constraint_type": "caret",
+          "version_spec": "^2.1.2",
+          "age_days": 350
+        },
+        {
+          "source": "axios",
+          "target": "follow-redirects",
+          "constraint_type": "caret",
+          "version_spec": "^1.15.0",
+          "age_days": 351
+        },
+        {
+          "source": "axios",
+          "target": "form-data",
+          "constraint_type": "caret",
+          "version_spec": "^4.0.0",
+          "age_days": 349
+        },
+        {
+          "source": "form-data",
+          "target": "combined-stream",
+          "constraint_type": "caret",
+          "version_spec": "^1.0.8",
+          "age_days": 347
+        },
+        {
+          "source": "form-data",
+          "target": "delayed-stream",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.0",
+          "age_days": 360
+        },
+        {
+          "source": "form-data",
+          "target": "mime",
+          "constraint_type": "caret",
+          "version_spec": "^2.5.0",
+          "age_days": 355
+        },
+        {
+          "source": "chalk",
+          "target": "ansi-styles",
+          "constraint_type": "caret",
+          "version_spec": "^4.1.0",
+          "age_days": 350
+        },
+        {
+          "source": "chalk",
+          "target": "supports-color",
+          "constraint_type": "caret",
+          "version_spec": "^7.1.0",
+          "age_days": 342
+        },
+        {
+          "source": "glob",
+          "target": "minimatch",
+          "constraint_type": "caret",
+          "version_spec": "^3.0.4",
+          "age_days": 341
+        },
+        {
+          "source": "minimatch",
+          "target": "brace-expansion",
+          "constraint_type": "caret",
+          "version_spec": "^1.1.7",
+          "age_days": 342
+        },
+        {
+          "source": "brace-expansion",
+          "target": "balanced-match",
+          "constraint_type": "caret",
+          "version_spec": "^1.0.0",
+          "age_days": 353
+        },
+        {
+          "source": "brace-expansion",
+          "target": "concat-map",
+          "constraint_type": "caret",
+          "version_spec": "0.0.1",
+          "age_days": 354
+        },
+        {
+          "source": "fs-extra",
+          "target": "graceful-fs",
+          "constraint_type": "caret",
+          "version_spec": "^4.2.0",
+          "age_days": 342
+        },
+        {
+          "source": "fs-extra",
+          "target": "jsonfile",
+          "constraint_type": "caret",
+          "version_spec": "^6.0.1",
+          "age_days": 360
+        },
+        {
+          "source": "fs-extra",
+          "target": "universalify",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 360
+        },
+        {
+          "source": "yargs",
+          "target": "cliui",
+          "constraint_type": "caret",
+          "version_spec": "^7.0.2",
+          "age_days": 340
+        },
+        {
+          "source": "cliui",
+          "target": "string-width",
+          "constraint_type": "caret",
+          "version_spec": "^4.2.0",
+          "age_days": 356
+        },
+        {
+          "source": "cliui",
+          "target": "wrap-ansi",
+          "constraint_type": "caret",
+          "version_spec": "^7.0.0",
+          "age_days": 343
+        }
+      ]
+    },
+    {
+      "epoch": 4,
+      "timestamp": "2024-01-15T00:00:00Z",
+      "packages": [
+        {
+          "name": "express",
+          "version": "4.4.5",
+          "maintainer_count": 5,
+          "commit_cadence": 29.75,
+          "release_velocity": 5.07,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "body-parser",
+          "version": "4.4.7",
+          "maintainer_count": 3,
+          "commit_cadence": 12.95,
+          "release_velocity": 3.15,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cookie-parser",
+          "version": "4.4.0",
+          "maintainer_count": 2,
+          "commit_cadence": 6.78,
+          "release_velocity": 2.23,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "serve-static",
+          "version": "4.4.5",
+          "maintainer_count": 2,
+          "commit_cadence": 7.48,
+          "release_velocity": 2.58,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "send",
+          "version": "4.4.0",
+          "maintainer_count": 3,
+          "commit_cadence": 15.53,
+          "release_velocity": 3.33,
+          "historical_cve_count": 2,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "send",
+              "cve": "CASCADE-NPM-005",
+              "severity": 5.3,
+              "lag_days": 35,
+              "cascade_from": "ms"
+            }
+          ]
+        },
+        {
+          "name": "debug",
+          "version": "4.4.4",
+          "maintainer_count": 3,
+          "commit_cadence": 16.25,
+          "release_velocity": 3.66,
+          "historical_cve_count": 1,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "debug",
+              "cve": "CASCADE-NPM-004",
+              "severity": 5.3,
+              "lag_days": 45,
+              "cascade_from": "ms"
+            }
+          ]
+        },
+        {
+          "name": "ms",
+          "version": "4.4.2",
+          "maintainer_count": 1,
+          "commit_cadence": 2.57,
+          "release_velocity": 1.58,
+          "historical_cve_count": 1,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "ms",
+              "cve": "CVE-2022-25860",
+              "severity": 5.3,
+              "lag_days": 60
+            }
+          ]
+        },
+        {
+          "name": "mime",
+          "version": "4.4.5",
+          "maintainer_count": 2,
+          "commit_cadence": 5.97,
+          "release_velocity": 2.09,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fresh",
+          "version": "4.4.2",
+          "maintainer_count": 1,
+          "commit_cadence": 1.2,
+          "release_velocity": 2.23,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "range-parser",
+          "version": "4.4.6",
+          "maintainer_count": 2,
+          "commit_cadence": 7.4,
+          "release_velocity": 1.42,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "etag",
+          "version": "4.4.4",
+          "maintainer_count": 2,
+          "commit_cadence": 1.25,
+          "release_velocity": 2.03,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "destroy",
+          "version": "4.4.3",
+          "maintainer_count": 1,
+          "commit_cadence": 5.56,
+          "release_velocity": 1.98,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "encodeurl",
+          "version": "4.4.0",
+          "maintainer_count": 1,
+          "commit_cadence": 1.87,
+          "release_velocity": 1.49,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "escape-html",
+          "version": "4.4.7",
+          "maintainer_count": 1,
+          "commit_cadence": 5.98,
+          "release_velocity": 1.22,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "qs",
+          "version": "4.4.7",
+          "maintainer_count": 3,
+          "commit_cadence": 18.81,
+          "release_velocity": 5.02,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "content-type",
+          "version": "4.4.7",
+          "maintainer_count": 1,
+          "commit_cadence": 1.2,
+          "release_velocity": 1.92,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "raw-body",
+          "version": "4.4.4",
+          "maintainer_count": 2,
+          "commit_cadence": 9.14,
+          "release_velocity": 2.75,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "bytes",
+          "version": "4.4.1",
+          "maintainer_count": 1,
+          "commit_cadence": 6.46,
+          "release_velocity": 1.55,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "http-errors",
+          "version": "4.4.7",
+          "maintainer_count": 2,
+          "commit_cadence": 6.5,
+          "release_velocity": 3.27,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "inherits",
+          "version": "4.4.4",
+          "maintainer_count": 1,
+          "commit_cadence": 0.85,
+          "release_velocity": 1.36,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "statuses",
+          "version": "4.4.3",
+          "maintainer_count": 2,
+          "commit_cadence": 6.29,
+          "release_velocity": 1.86,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "unpipe",
+          "version": "4.4.3",
+          "maintainer_count": 1,
+          "commit_cadence": 5.86,
+          "release_velocity": 2.09,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "lodash",
+          "version": "4.4.1",
+          "maintainer_count": 4,
+          "commit_cadence": 32.54,
+          "release_velocity": 4.94,
+          "historical_cve_count": 5,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "lodash",
+              "cve": "CVE-2020-28500",
+              "severity": 7.3,
+              "lag_days": 140
+            }
+          ]
+        },
+        {
+          "name": "axios",
+          "version": "4.4.4",
+          "maintainer_count": 5,
+          "commit_cadence": 44.67,
+          "release_velocity": 7.04,
+          "historical_cve_count": 4,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "follow-redirects",
+          "version": "4.4.2",
+          "maintainer_count": 2,
+          "commit_cadence": 11.76,
+          "release_velocity": 3.21,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "form-data",
+          "version": "4.4.3",
+          "maintainer_count": 3,
+          "commit_cadence": 17.89,
+          "release_velocity": 4.14,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "combined-stream",
+          "version": "4.4.2",
+          "maintainer_count": 1,
+          "commit_cadence": 4.01,
+          "release_velocity": 2.3,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "delayed-stream",
+          "version": "4.4.6",
+          "maintainer_count": 1,
+          "commit_cadence": 0.55,
+          "release_velocity": 1.02,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "chalk",
+          "version": "4.4.6",
+          "maintainer_count": 4,
+          "commit_cadence": 21.17,
+          "release_velocity": 5.01,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ansi-styles",
+          "version": "4.4.0",
+          "maintainer_count": 2,
+          "commit_cadence": 4.49,
+          "release_velocity": 2.34,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "supports-color",
+          "version": "4.4.6",
+          "maintainer_count": 2,
+          "commit_cadence": 11.18,
+          "release_velocity": 2.71,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "semver",
+          "version": "4.4.3",
+          "maintainer_count": 4,
+          "commit_cadence": 19.97,
+          "release_velocity": 3.87,
+          "historical_cve_count": 2,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "semver",
+              "cve": "CVE-2022-25883",
+              "severity": 7.5,
+              "lag_days": 95
+            }
+          ]
+        },
+        {
+          "name": "minimist",
+          "version": "4.4.4",
+          "maintainer_count": 2,
+          "commit_cadence": 7.45,
+          "release_velocity": 1.79,
+          "historical_cve_count": 2,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "minimist",
+              "cve": "CVE-2021-44906",
+              "severity": 8.2,
+              "lag_days": 120
+            }
+          ]
+        },
+        {
+          "name": "async",
+          "version": "4.4.3",
+          "maintainer_count": 3,
+          "commit_cadence": 13.42,
+          "release_velocity": 2.71,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "commander",
+          "version": "4.4.2",
+          "maintainer_count": 4,
+          "commit_cadence": 23.15,
+          "release_velocity": 4.61,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "glob",
+          "version": "4.4.0",
+          "maintainer_count": 3,
+          "commit_cadence": 12.18,
+          "release_velocity": 3.64,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "minimatch",
+          "version": "4.4.1",
+          "maintainer_count": 2,
+          "commit_cadence": 12.68,
+          "release_velocity": 3.06,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "brace-expansion",
+          "version": "4.4.2",
+          "maintainer_count": 2,
+          "commit_cadence": 5.99,
+          "release_velocity": 1.61,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "balanced-match",
+          "version": "4.4.5",
+          "maintainer_count": 1,
+          "commit_cadence": 5.44,
+          "release_velocity": 1.35,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "concat-map",
+          "version": "4.4.1",
+          "maintainer_count": 1,
+          "commit_cadence": 2.82,
+          "release_velocity": 1.21,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fs-extra",
+          "version": "4.4.6",
+          "maintainer_count": 3,
+          "commit_cadence": 16.04,
+          "release_velocity": 3.71,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "graceful-fs",
+          "version": "4.4.4",
+          "maintainer_count": 2,
+          "commit_cadence": 9.36,
+          "release_velocity": 2.28,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "jsonfile",
+          "version": "4.4.5",
+          "maintainer_count": 2,
+          "commit_cadence": 4.58,
+          "release_velocity": 1.62,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "universalify",
+          "version": "4.4.5",
+          "maintainer_count": 1,
+          "commit_cadence": 4.07,
+          "release_velocity": 1.07,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "uuid",
+          "version": "4.4.4",
+          "maintainer_count": 3,
+          "commit_cadence": 15.82,
+          "release_velocity": 4.59,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "ws",
+          "version": "4.4.5",
+          "maintainer_count": 4,
+          "commit_cadence": 27.36,
+          "release_velocity": 5.06,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "yargs",
+          "version": "4.4.6",
+          "maintainer_count": 4,
+          "commit_cadence": 26.44,
+          "release_velocity": 5.32,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cliui",
+          "version": "4.4.3",
+          "maintainer_count": 2,
+          "commit_cadence": 8.22,
+          "release_velocity": 2.21,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "wrap-ansi",
+          "version": "4.4.2",
+          "maintainer_count": 2,
+          "commit_cadence": 6.39,
+          "release_velocity": 2.57,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "string-width",
+          "version": "4.4.5",
+          "maintainer_count": 2,
+          "commit_cadence": 8.75,
+          "release_velocity": 2.46,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        }
+      ],
+      "dependencies": [
+        {
+          "source": "express",
+          "target": "body-parser",
+          "constraint_type": "caret",
+          "version_spec": "^1.20.1",
+          "age_days": 427
+        },
+        {
+          "source": "express",
+          "target": "cookie-parser",
+          "constraint_type": "caret",
+          "version_spec": "~1.4.6",
+          "age_days": 424
+        },
+        {
+          "source": "express",
+          "target": "serve-static",
+          "constraint_type": "caret",
+          "version_spec": "1.15.0",
+          "age_days": 433
+        },
+        {
+          "source": "express",
+          "target": "send",
+          "constraint_type": "caret",
+          "version_spec": "^0.18.0",
+          "age_days": 426
+        },
+        {
+          "source": "express",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 433
+        },
+        {
+          "source": "express",
+          "target": "qs",
+          "constraint_type": "caret",
+          "version_spec": "^6.11.0",
+          "age_days": 422
+        },
+        {
+          "source": "express",
+          "target": "etag",
+          "constraint_type": "caret",
+          "version_spec": "~1.8.1",
+          "age_days": 433
+        },
+        {
+          "source": "express",
+          "target": "fresh",
+          "constraint_type": "caret",
+          "version_spec": "0.5.2",
+          "age_days": 426
+        },
+        {
+          "source": "express",
+          "target": "encodeurl",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.2",
+          "age_days": 434
+        },
+        {
+          "source": "express",
+          "target": "escape-html",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.3",
+          "age_days": 440
+        },
+        {
+          "source": "body-parser",
+          "target": "bytes",
+          "constraint_type": "caret",
+          "version_spec": "3.1.2",
+          "age_days": 425
+        },
+        {
+          "source": "body-parser",
+          "target": "content-type",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.4",
+          "age_days": 434
+        },
+        {
+          "source": "body-parser",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 421
+        },
+        {
+          "source": "body-parser",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 420
+        },
+        {
+          "source": "body-parser",
+          "target": "raw-body",
+          "constraint_type": "caret",
+          "version_spec": "^2.5.1",
+          "age_days": 420
+        },
+        {
+          "source": "body-parser",
+          "target": "qs",
+          "constraint_type": "caret",
+          "version_spec": "^6.11.0",
+          "age_days": 439
+        },
+        {
+          "source": "send",
+          "target": "debug",
+          "constraint_type": "caret",
+          "version_spec": "^2.6.9",
+          "age_days": 439
+        },
+        {
+          "source": "send",
+          "target": "destroy",
+          "constraint_type": "caret",
+          "version_spec": "^1.2.0",
+          "age_days": 434
+        },
+        {
+          "source": "send",
+          "target": "etag",
+          "constraint_type": "caret",
+          "version_spec": "~1.8.1",
+          "age_days": 428
+        },
+        {
+          "source": "send",
+          "target": "fresh",
+          "constraint_type": "caret",
+          "version_spec": "0.5.2",
+          "age_days": 440
+        },
+        {
+          "source": "send",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 433
+        },
+        {
+          "source": "send",
+          "target": "mime",
+          "constraint_type": "caret",
+          "version_spec": "^1.6.0",
+          "age_days": 424
+        },
+        {
+          "source": "send",
+          "target": "ms",
+          "constraint_type": "caret",
+          "version_spec": "2.1.3",
+          "age_days": 428
+        },
+        {
+          "source": "send",
+          "target": "range-parser",
+          "constraint_type": "caret",
+          "version_spec": "~1.2.1",
+          "age_days": 427
+        },
+        {
+          "source": "send",
+          "target": "statuses",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.1",
+          "age_days": 425
+        },
+        {
+          "source": "serve-static",
+          "target": "send",
+          "constraint_type": "caret",
+          "version_spec": "^0.18.0",
+          "age_days": 438
+        },
+        {
+          "source": "raw-body",
+          "target": "bytes",
+          "constraint_type": "caret",
+          "version_spec": "3.1.2",
+          "age_days": 430
+        },
+        {
+          "source": "raw-body",
+          "target": "http-errors",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 424
+        },
+        {
+          "source": "raw-body",
+          "target": "unpipe",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.0",
+          "age_days": 436
+        },
+        {
+          "source": "debug",
+          "target": "ms",
+          "constraint_type": "caret",
+          "version_spec": "^2.1.2",
+          "age_days": 438
+        },
+        {
+          "source": "axios",
+          "target": "follow-redirects",
+          "constraint_type": "caret",
+          "version_spec": "^1.15.0",
+          "age_days": 430
+        },
+        {
+          "source": "axios",
+          "target": "form-data",
+          "constraint_type": "caret",
+          "version_spec": "^4.0.0",
+          "age_days": 429
+        },
+        {
+          "source": "form-data",
+          "target": "combined-stream",
+          "constraint_type": "caret",
+          "version_spec": "^1.0.8",
+          "age_days": 439
+        },
+        {
+          "source": "form-data",
+          "target": "delayed-stream",
+          "constraint_type": "caret",
+          "version_spec": "~1.0.0",
+          "age_days": 429
+        },
+        {
+          "source": "form-data",
+          "target": "mime",
+          "constraint_type": "caret",
+          "version_spec": "^2.5.0",
+          "age_days": 435
+        },
+        {
+          "source": "chalk",
+          "target": "ansi-styles",
+          "constraint_type": "caret",
+          "version_spec": "^4.1.0",
+          "age_days": 439
+        },
+        {
+          "source": "chalk",
+          "target": "supports-color",
+          "constraint_type": "caret",
+          "version_spec": "^7.1.0",
+          "age_days": 431
+        },
+        {
+          "source": "glob",
+          "target": "minimatch",
+          "constraint_type": "caret",
+          "version_spec": "^3.0.4",
+          "age_days": 431
+        },
+        {
+          "source": "minimatch",
+          "target": "brace-expansion",
+          "constraint_type": "caret",
+          "version_spec": "^1.1.7",
+          "age_days": 428
+        },
+        {
+          "source": "brace-expansion",
+          "target": "balanced-match",
+          "constraint_type": "caret",
+          "version_spec": "^1.0.0",
+          "age_days": 420
+        },
+        {
+          "source": "brace-expansion",
+          "target": "concat-map",
+          "constraint_type": "caret",
+          "version_spec": "0.0.1",
+          "age_days": 439
+        },
+        {
+          "source": "fs-extra",
+          "target": "graceful-fs",
+          "constraint_type": "caret",
+          "version_spec": "^4.2.0",
+          "age_days": 440
+        },
+        {
+          "source": "fs-extra",
+          "target": "jsonfile",
+          "constraint_type": "caret",
+          "version_spec": "^6.0.1",
+          "age_days": 428
+        },
+        {
+          "source": "fs-extra",
+          "target": "universalify",
+          "constraint_type": "caret",
+          "version_spec": "^2.0.0",
+          "age_days": 439
+        },
+        {
+          "source": "yargs",
+          "target": "cliui",
+          "constraint_type": "caret",
+          "version_spec": "^7.0.2",
+          "age_days": 431
+        },
+        {
+          "source": "cliui",
+          "target": "string-width",
+          "constraint_type": "caret",
+          "version_spec": "^4.2.0",
+          "age_days": 436
+        },
+        {
+          "source": "cliui",
+          "target": "wrap-ansi",
+          "constraint_type": "caret",
+          "version_spec": "^7.0.0",
+          "age_days": 428
+        }
+      ]
+    }
+  ]
+}

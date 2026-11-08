@@ -1,0 +1,73 @@
+name: CI & Paper Build
+
+on:
+  push:
+    branches: [ "main", "master" ]
+    tags: [ "v*" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test Suite & Simulation Experiments
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install PyTorch and Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install torch-geometric
+          pip install -r requirements.txt
+
+      - name: Run Pytest Test Suite
+        run: pytest tests/ -v
+
+      - name: Run Deterministic Benchmark Harness & Cascade Simulator
+        run: python run_experiments.py --backend mock
+
+  paper-verification:
+    name: Verify Paper Compilation & Artifacts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check Paper PDF Integrity
+        run: |
+          if [ ! -f "paper/graphshield_paper.pdf" ]; then
+            echo "::error::paper/graphshield_paper.pdf does not exist!"
+            exit 1
+          fi
+          FILE_SIZE=$(wc -c < "paper/graphshield_paper.pdf")
+          if [ "$FILE_SIZE" -lt 50000 ]; then
+            echo "::error::paper/graphshield_paper.pdf is unexpectedly small ($FILE_SIZE bytes)!"
+            exit 1
+          fi
+          echo "Paper PDF validated successfully. Size: $FILE_SIZE bytes."
+
+  release:
+    name: Publish Paper PDF Release Asset
+    needs: [test, paper-verification]
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v') || github.event_name == 'release'
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Upload Paper PDF to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: paper/graphshield_paper.pdf
+          generate_release_notes: true

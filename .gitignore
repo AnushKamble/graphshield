@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+bin/
+*.exe
+*.o
+*.a
+
+# LaTeX intermediate build files (preserve graphshield_paper.pdf)
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

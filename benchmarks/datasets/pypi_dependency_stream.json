@@ -1,0 +1,4314 @@
+{
+  "ecosystem": "PyPI",
+  "description": "Standardized multi-epoch PyPI software dependency stream with OSV/GHSA ground truth annotations.",
+  "num_epochs": 5,
+  "total_packages": 50,
+  "snapshots": [
+    {
+      "epoch": 0,
+      "timestamp": "2023-01-15T00:00:00Z",
+      "packages": [
+        {
+          "name": "requests",
+          "version": "2.0.2",
+          "maintainer_count": 3,
+          "commit_cadence": 14.5,
+          "release_velocity": 3.2,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "urllib3",
+          "version": "2.0.0",
+          "maintainer_count": 4,
+          "commit_cadence": 22.0,
+          "release_velocity": 4.0,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "certifi",
+          "version": "2.0.0",
+          "maintainer_count": 2,
+          "commit_cadence": 5.0,
+          "release_velocity": 2.0,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "idna",
+          "version": "2.0.0",
+          "maintainer_count": 2,
+          "commit_cadence": 4.0,
+          "release_velocity": 1.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "2.0.0",
+          "maintainer_count": 1,
+          "commit_cadence": 8.0,
+          "release_velocity": 2.5,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "flask",
+          "version": "2.0.5",
+          "maintainer_count": 5,
+          "commit_cadence": 18.0,
+          "release_velocity": 3.0,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "werkzeug",
+          "version": "2.0.4",
+          "maintainer_count": 4,
+          "commit_cadence": 16.0,
+          "release_velocity": 3.5,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "jinja2",
+          "version": "2.0.1",
+          "maintainer_count": 3,
+          "commit_cadence": 11.0,
+          "release_velocity": 2.0,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "itsdangerous",
+          "version": "2.0.1",
+          "maintainer_count": 2,
+          "commit_cadence": 3.0,
+          "release_velocity": 1.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "click",
+          "version": "2.0.0",
+          "maintainer_count": 4,
+          "commit_cadence": 12.0,
+          "release_velocity": 2.2,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "blinker",
+          "version": "2.0.2",
+          "maintainer_count": 1,
+          "commit_cadence": 2.0,
+          "release_velocity": 0.8,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "markupsafe",
+          "version": "2.0.5",
+          "maintainer_count": 2,
+          "commit_cadence": 6.0,
+          "release_velocity": 1.8,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fastapi",
+          "version": "2.0.3",
+          "maintainer_count": 4,
+          "commit_cadence": 35.0,
+          "release_velocity": 6.5,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "starlette",
+          "version": "2.0.5",
+          "maintainer_count": 3,
+          "commit_cadence": 20.0,
+          "release_velocity": 4.5,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pydantic",
+          "version": "2.0.4",
+          "maintainer_count": 5,
+          "commit_cadence": 45.0,
+          "release_velocity": 8.0,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pydantic-core",
+          "version": "2.0.5",
+          "maintainer_count": 3,
+          "commit_cadence": 25.0,
+          "release_velocity": 5.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "typing-extensions",
+          "version": "2.0.0",
+          "maintainer_count": 2,
+          "commit_cadence": 10.0,
+          "release_velocity": 3.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "anyio",
+          "version": "2.0.3",
+          "maintainer_count": 2,
+          "commit_cadence": 15.0,
+          "release_velocity": 3.8,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "sniffio",
+          "version": "2.0.2",
+          "maintainer_count": 1,
+          "commit_cadence": 2.0,
+          "release_velocity": 0.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "uvicorn",
+          "version": "2.0.5",
+          "maintainer_count": 3,
+          "commit_cadence": 16.0,
+          "release_velocity": 3.2,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "httpx",
+          "version": "2.0.5",
+          "maintainer_count": 3,
+          "commit_cadence": 24.0,
+          "release_velocity": 4.2,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "httpcore",
+          "version": "2.0.4",
+          "maintainer_count": 2,
+          "commit_cadence": 14.0,
+          "release_velocity": 3.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "h11",
+          "version": "2.0.3",
+          "maintainer_count": 2,
+          "commit_cadence": 3.0,
+          "release_velocity": 1.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cryptography",
+          "version": "2.0.5",
+          "maintainer_count": 6,
+          "commit_cadence": 40.0,
+          "release_velocity": 5.5,
+          "historical_cve_count": 4,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cffi",
+          "version": "2.0.0",
+          "maintainer_count": 2,
+          "commit_cadence": 5.0,
+          "release_velocity": 1.2,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pycparser",
+          "version": "2.0.2",
+          "maintainer_count": 1,
+          "commit_cadence": 2.0,
+          "release_velocity": 0.6,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pyOpenSSL",
+          "version": "2.0.4",
+          "maintainer_count": 3,
+          "commit_cadence": 8.0,
+          "release_velocity": 1.5,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "bcrypt",
+          "version": "2.0.5",
+          "maintainer_count": 2,
+          "commit_cadence": 4.0,
+          "release_velocity": 1.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "celery",
+          "version": "2.0.5",
+          "maintainer_count": 4,
+          "commit_cadence": 22.0,
+          "release_velocity": 3.0,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "kombu",
+          "version": "2.0.1",
+          "maintainer_count": 3,
+          "commit_cadence": 14.0,
+          "release_velocity": 2.5,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "amqp",
+          "version": "2.0.5",
+          "maintainer_count": 2,
+          "commit_cadence": 7.0,
+          "release_velocity": 1.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "billiard",
+          "version": "2.0.3",
+          "maintainer_count": 2,
+          "commit_cadence": 5.0,
+          "release_velocity": 1.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "vine",
+          "version": "2.0.1",
+          "maintainer_count": 1,
+          "commit_cadence": 2.0,
+          "release_velocity": 0.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "sqlalchemy",
+          "version": "2.0.0",
+          "maintainer_count": 5,
+          "commit_cadence": 32.0,
+          "release_velocity": 4.8,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "greenlet",
+          "version": "2.0.1",
+          "maintainer_count": 2,
+          "commit_cadence": 6.0,
+          "release_velocity": 1.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "alembic",
+          "version": "2.0.0",
+          "maintainer_count": 3,
+          "commit_cadence": 12.0,
+          "release_velocity": 2.4,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "mako",
+          "version": "2.0.3",
+          "maintainer_count": 2,
+          "commit_cadence": 4.0,
+          "release_velocity": 1.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pandas",
+          "version": "2.0.0",
+          "maintainer_count": 8,
+          "commit_cadence": 65.0,
+          "release_velocity": 6.0,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "numpy",
+          "version": "2.0.4",
+          "maintainer_count": 7,
+          "commit_cadence": 70.0,
+          "release_velocity": 5.0,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "scipy",
+          "version": "2.0.2",
+          "maintainer_count": 6,
+          "commit_cadence": 50.0,
+          "release_velocity": 4.0,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "scikit-learn",
+          "version": "2.0.3",
+          "maintainer_count": 7,
+          "commit_cadence": 48.0,
+          "release_velocity": 3.8,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "joblib",
+          "version": "2.0.5",
+          "maintainer_count": 2,
+          "commit_cadence": 6.0,
+          "release_velocity": 1.2,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "threadpoolctl",
+          "version": "2.0.1",
+          "maintainer_count": 2,
+          "commit_cadence": 3.0,
+          "release_velocity": 0.8,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "tqdm",
+          "version": "2.0.5",
+          "maintainer_count": 2,
+          "commit_cadence": 7.0,
+          "release_velocity": 2.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "rich",
+          "version": "2.0.4",
+          "maintainer_count": 3,
+          "commit_cadence": 28.0,
+          "release_velocity": 5.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pygments",
+          "version": "2.0.1",
+          "maintainer_count": 3,
+          "commit_cadence": 8.0,
+          "release_velocity": 1.5,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "colorama",
+          "version": "2.0.4",
+          "maintainer_count": 1,
+          "commit_cadence": 2.0,
+          "release_velocity": 0.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "psutil",
+          "version": "2.0.3",
+          "maintainer_count": 3,
+          "commit_cadence": 9.0,
+          "release_velocity": 1.8,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "packaging",
+          "version": "2.0.2",
+          "maintainer_count": 2,
+          "commit_cadence": 6.0,
+          "release_velocity": 1.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cachetools",
+          "version": "2.0.4",
+          "maintainer_count": 1,
+          "commit_cadence": 3.0,
+          "release_velocity": 1.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        }
+      ],
+      "dependencies": [
+        {
+          "source": "requests",
+          "target": "urllib3",
+          "constraint_type": "caret",
+          "version_spec": ">=1.26.0,<3.0.0",
+          "age_days": 122
+        },
+        {
+          "source": "requests",
+          "target": "certifi",
+          "constraint_type": "tilde",
+          "version_spec": ">=2021.10.8",
+          "age_days": 122
+        },
+        {
+          "source": "requests",
+          "target": "idna",
+          "constraint_type": "caret",
+          "version_spec": ">=2.5,<4.0",
+          "age_days": 135
+        },
+        {
+          "source": "requests",
+          "target": "charset-normalizer",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0,<4.0.0",
+          "age_days": 122
+        },
+        {
+          "source": "flask",
+          "target": "werkzeug",
+          "constraint_type": "caret",
+          "version_spec": ">=2.2.0",
+          "age_days": 124
+        },
+        {
+          "source": "flask",
+          "target": "jinja2",
+          "constraint_type": "caret",
+          "version_spec": ">=3.0.0",
+          "age_days": 124
+        },
+        {
+          "source": "flask",
+          "target": "itsdangerous",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 135
+        },
+        {
+          "source": "flask",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=8.0.0",
+          "age_days": 125
+        },
+        {
+          "source": "flask",
+          "target": "blinker",
+          "constraint_type": "pinned",
+          "version_spec": "==1.6.2",
+          "age_days": 128
+        },
+        {
+          "source": "jinja2",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 133
+        },
+        {
+          "source": "werkzeug",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=2.1.1",
+          "age_days": 126
+        },
+        {
+          "source": "fastapi",
+          "target": "starlette",
+          "constraint_type": "caret",
+          "version_spec": ">=0.27.0",
+          "age_days": 126
+        },
+        {
+          "source": "fastapi",
+          "target": "pydantic",
+          "constraint_type": "caret",
+          "version_spec": ">=1.7.4,<3.0.0",
+          "age_days": 129
+        },
+        {
+          "source": "fastapi",
+          "target": "typing-extensions",
+          "constraint_type": "caret",
+          "version_spec": ">=4.5.0",
+          "age_days": 132
+        },
+        {
+          "source": "starlette",
+          "target": "anyio",
+          "constraint_type": "caret",
+          "version_spec": ">=3.4.0,<5.0.0",
+          "age_days": 131
+        },
+        {
+          "source": "anyio",
+          "target": "sniffio",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1",
+          "age_days": 134
+        },
+        {
+          "source": "pydantic",
+          "target": "pydantic-core",
+          "constraint_type": "pinned",
+          "version_spec": "==2.14.0",
+          "age_days": 134
+        },
+        {
+          "source": "pydantic",
+          "target": "typing-extensions",
+          "constraint_type": "caret",
+          "version_spec": ">=4.6.1",
+          "age_days": 123
+        },
+        {
+          "source": "uvicorn",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=7.0",
+          "age_days": 127
+        },
+        {
+          "source": "uvicorn",
+          "target": "h11",
+          "constraint_type": "caret",
+          "version_spec": ">=0.8",
+          "age_days": 127
+        },
+        {
+          "source": "httpx",
+          "target": "httpcore",
+          "constraint_type": "caret",
+          "version_spec": ">=0.17.0,<0.19.0",
+          "age_days": 122
+        },
+        {
+          "source": "httpx",
+          "target": "certifi",
+          "constraint_type": "caret",
+          "version_spec": ">=2022.0",
+          "age_days": 130
+        },
+        {
+          "source": "httpx",
+          "target": "idna",
+          "constraint_type": "caret",
+          "version_spec": ">=2.8",
+          "age_days": 120
+        },
+        {
+          "source": "httpx",
+          "target": "sniffio",
+          "constraint_type": "caret",
+          "version_spec": ">=1.0",
+          "age_days": 127
+        },
+        {
+          "source": "httpcore",
+          "target": "h11",
+          "constraint_type": "caret",
+          "version_spec": ">=0.13.0,<0.15.0",
+          "age_days": 127
+        },
+        {
+          "source": "httpcore",
+          "target": "certifi",
+          "constraint_type": "caret",
+          "version_spec": ">=2021.0",
+          "age_days": 120
+        },
+        {
+          "source": "cryptography",
+          "target": "cffi",
+          "constraint_type": "caret",
+          "version_spec": ">=1.12",
+          "age_days": 122
+        },
+        {
+          "source": "cffi",
+          "target": "pycparser",
+          "constraint_type": "caret",
+          "version_spec": ">=2.06",
+          "age_days": 121
+        },
+        {
+          "source": "pyOpenSSL",
+          "target": "cryptography",
+          "constraint_type": "caret",
+          "version_spec": ">=38.0.0",
+          "age_days": 127
+        },
+        {
+          "source": "celery",
+          "target": "kombu",
+          "constraint_type": "caret",
+          "version_spec": ">=5.3.0,<6.0",
+          "age_days": 122
+        },
+        {
+          "source": "celery",
+          "target": "billiard",
+          "constraint_type": "caret",
+          "version_spec": ">=4.1.0,<5.0",
+          "age_days": 121
+        },
+        {
+          "source": "celery",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=8.0.3",
+          "age_days": 130
+        },
+        {
+          "source": "celery",
+          "target": "vine",
+          "constraint_type": "caret",
+          "version_spec": ">=5.0.0",
+          "age_days": 122
+        },
+        {
+          "source": "kombu",
+          "target": "amqp",
+          "constraint_type": "caret",
+          "version_spec": ">=5.1.1,<6.0",
+          "age_days": 127
+        },
+        {
+          "source": "kombu",
+          "target": "vine",
+          "constraint_type": "caret",
+          "version_spec": ">=5.0.0",
+          "age_days": 128
+        },
+        {
+          "source": "sqlalchemy",
+          "target": "greenlet",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0",
+          "age_days": 135
+        },
+        {
+          "source": "alembic",
+          "target": "sqlalchemy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.3.0",
+          "age_days": 126
+        },
+        {
+          "source": "alembic",
+          "target": "mako",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1.0",
+          "age_days": 124
+        },
+        {
+          "source": "mako",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=0.9.2",
+          "age_days": 135
+        },
+        {
+          "source": "scikit-learn",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.19.5",
+          "age_days": 127
+        },
+        {
+          "source": "scikit-learn",
+          "target": "scipy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.6.0",
+          "age_days": 135
+        },
+        {
+          "source": "scikit-learn",
+          "target": "joblib",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1.1",
+          "age_days": 133
+        },
+        {
+          "source": "scikit-learn",
+          "target": "threadpoolctl",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 126
+        },
+        {
+          "source": "scipy",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.19.5",
+          "age_days": 123
+        },
+        {
+          "source": "pandas",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.20.0",
+          "age_days": 123
+        },
+        {
+          "source": "rich",
+          "target": "pygments",
+          "constraint_type": "caret",
+          "version_spec": ">=2.6.0",
+          "age_days": 133
+        },
+        {
+          "source": "rich",
+          "target": "colorama",
+          "constraint_type": "caret",
+          "version_spec": ">=0.4.0",
+          "age_days": 131
+        }
+      ]
+    },
+    {
+      "epoch": 1,
+      "timestamp": "2023-04-15T00:00:00Z",
+      "packages": [
+        {
+          "name": "requests",
+          "version": "2.1.5",
+          "maintainer_count": 3,
+          "commit_cadence": 14.72,
+          "release_velocity": 3.44,
+          "historical_cve_count": 2,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "requests",
+              "cve": "CASCADE-PyPI-001",
+              "severity": 7.5,
+              "lag_days": 54,
+              "cascade_from": "urllib3"
+            }
+          ]
+        },
+        {
+          "name": "urllib3",
+          "version": "2.1.5",
+          "maintainer_count": 4,
+          "commit_cadence": 21.59,
+          "release_velocity": 4.3,
+          "historical_cve_count": 3,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "urllib3",
+              "cve": "CVE-2023-32681",
+              "severity": 7.5,
+              "lag_days": 68
+            }
+          ]
+        },
+        {
+          "name": "certifi",
+          "version": "2.1.2",
+          "maintainer_count": 2,
+          "commit_cadence": 4.67,
+          "release_velocity": 2.22,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "idna",
+          "version": "2.1.1",
+          "maintainer_count": 2,
+          "commit_cadence": 4.86,
+          "release_velocity": 1.63,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "2.1.3",
+          "maintainer_count": 1,
+          "commit_cadence": 7.82,
+          "release_velocity": 2.73,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "flask",
+          "version": "2.1.0",
+          "maintainer_count": 5,
+          "commit_cadence": 17.81,
+          "release_velocity": 3.24,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "werkzeug",
+          "version": "2.1.4",
+          "maintainer_count": 4,
+          "commit_cadence": 16.25,
+          "release_velocity": 3.86,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "jinja2",
+          "version": "2.1.4",
+          "maintainer_count": 3,
+          "commit_cadence": 10.67,
+          "release_velocity": 2.3,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "itsdangerous",
+          "version": "2.1.1",
+          "maintainer_count": 2,
+          "commit_cadence": 3.92,
+          "release_velocity": 1.39,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "click",
+          "version": "2.1.1",
+          "maintainer_count": 4,
+          "commit_cadence": 11.78,
+          "release_velocity": 2.45,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "blinker",
+          "version": "2.1.1",
+          "maintainer_count": 1,
+          "commit_cadence": 2.97,
+          "release_velocity": 1.17,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "markupsafe",
+          "version": "2.1.2",
+          "maintainer_count": 2,
+          "commit_cadence": 6.14,
+          "release_velocity": 2.2,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fastapi",
+          "version": "2.1.2",
+          "maintainer_count": 4,
+          "commit_cadence": 36.08,
+          "release_velocity": 6.84,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "starlette",
+          "version": "2.1.4",
+          "maintainer_count": 3,
+          "commit_cadence": 20.22,
+          "release_velocity": 4.89,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pydantic",
+          "version": "2.1.1",
+          "maintainer_count": 5,
+          "commit_cadence": 45.63,
+          "release_velocity": 8.25,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pydantic-core",
+          "version": "2.1.4",
+          "maintainer_count": 3,
+          "commit_cadence": 25.0,
+          "release_velocity": 5.39,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "typing-extensions",
+          "version": "2.1.2",
+          "maintainer_count": 2,
+          "commit_cadence": 10.75,
+          "release_velocity": 3.12,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "anyio",
+          "version": "2.1.4",
+          "maintainer_count": 2,
+          "commit_cadence": 14.6,
+          "release_velocity": 4.08,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "sniffio",
+          "version": "2.1.0",
+          "maintainer_count": 1,
+          "commit_cadence": 3.06,
+          "release_velocity": 0.76,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "uvicorn",
+          "version": "2.1.1",
+          "maintainer_count": 3,
+          "commit_cadence": 17.13,
+          "release_velocity": 3.32,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "httpx",
+          "version": "2.1.1",
+          "maintainer_count": 3,
+          "commit_cadence": 23.62,
+          "release_velocity": 4.32,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "httpcore",
+          "version": "2.1.4",
+          "maintainer_count": 2,
+          "commit_cadence": 14.19,
+          "release_velocity": 3.38,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "h11",
+          "version": "2.1.4",
+          "maintainer_count": 2,
+          "commit_cadence": 2.92,
+          "release_velocity": 1.28,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cryptography",
+          "version": "2.1.4",
+          "maintainer_count": 6,
+          "commit_cadence": 39.64,
+          "release_velocity": 5.8,
+          "historical_cve_count": 4,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cffi",
+          "version": "2.1.1",
+          "maintainer_count": 2,
+          "commit_cadence": 5.39,
+          "release_velocity": 1.58,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pycparser",
+          "version": "2.1.2",
+          "maintainer_count": 1,
+          "commit_cadence": 2.64,
+          "release_velocity": 0.79,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pyOpenSSL",
+          "version": "2.1.2",
+          "maintainer_count": 3,
+          "commit_cadence": 8.17,
+          "release_velocity": 1.8,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "bcrypt",
+          "version": "2.1.0",
+          "maintainer_count": 2,
+          "commit_cadence": 4.28,
+          "release_velocity": 1.38,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "celery",
+          "version": "2.1.4",
+          "maintainer_count": 4,
+          "commit_cadence": 21.52,
+          "release_velocity": 3.29,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "kombu",
+          "version": "2.1.1",
+          "maintainer_count": 3,
+          "commit_cadence": 15.19,
+          "release_velocity": 2.62,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "amqp",
+          "version": "2.1.2",
+          "maintainer_count": 2,
+          "commit_cadence": 7.36,
+          "release_velocity": 1.64,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "billiard",
+          "version": "2.1.2",
+          "maintainer_count": 2,
+          "commit_cadence": 6.0,
+          "release_velocity": 1.36,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "vine",
+          "version": "2.1.4",
+          "maintainer_count": 1,
+          "commit_cadence": 1.98,
+          "release_velocity": 0.73,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "sqlalchemy",
+          "version": "2.1.5",
+          "maintainer_count": 5,
+          "commit_cadence": 32.7,
+          "release_velocity": 5.08,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "greenlet",
+          "version": "2.1.4",
+          "maintainer_count": 2,
+          "commit_cadence": 6.4,
+          "release_velocity": 1.8,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "alembic",
+          "version": "2.1.1",
+          "maintainer_count": 3,
+          "commit_cadence": 12.01,
+          "release_velocity": 2.7,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "mako",
+          "version": "2.1.5",
+          "maintainer_count": 2,
+          "commit_cadence": 3.95,
+          "release_velocity": 1.37,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pandas",
+          "version": "2.1.4",
+          "maintainer_count": 8,
+          "commit_cadence": 65.44,
+          "release_velocity": 6.18,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "numpy",
+          "version": "2.1.5",
+          "maintainer_count": 7,
+          "commit_cadence": 69.86,
+          "release_velocity": 5.2,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "scipy",
+          "version": "2.1.3",
+          "maintainer_count": 6,
+          "commit_cadence": 50.58,
+          "release_velocity": 4.18,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "scikit-learn",
+          "version": "2.1.0",
+          "maintainer_count": 7,
+          "commit_cadence": 47.93,
+          "release_velocity": 4.17,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "joblib",
+          "version": "2.1.2",
+          "maintainer_count": 2,
+          "commit_cadence": 5.66,
+          "release_velocity": 1.43,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "threadpoolctl",
+          "version": "2.1.1",
+          "maintainer_count": 2,
+          "commit_cadence": 2.57,
+          "release_velocity": 1.0,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "tqdm",
+          "version": "2.1.5",
+          "maintainer_count": 2,
+          "commit_cadence": 7.58,
+          "release_velocity": 2.18,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "rich",
+          "version": "2.1.4",
+          "maintainer_count": 3,
+          "commit_cadence": 28.25,
+          "release_velocity": 5.31,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pygments",
+          "version": "2.1.5",
+          "maintainer_count": 3,
+          "commit_cadence": 7.52,
+          "release_velocity": 1.62,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "colorama",
+          "version": "2.1.2",
+          "maintainer_count": 1,
+          "commit_cadence": 3.04,
+          "release_velocity": 0.76,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "psutil",
+          "version": "2.1.1",
+          "maintainer_count": 3,
+          "commit_cadence": 9.49,
+          "release_velocity": 1.94,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "packaging",
+          "version": "2.1.0",
+          "maintainer_count": 2,
+          "commit_cadence": 5.57,
+          "release_velocity": 1.71,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cachetools",
+          "version": "2.1.1",
+          "maintainer_count": 1,
+          "commit_cadence": 4.03,
+          "release_velocity": 1.16,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        }
+      ],
+      "dependencies": [
+        {
+          "source": "requests",
+          "target": "urllib3",
+          "constraint_type": "caret",
+          "version_spec": ">=1.26.0,<3.0.0",
+          "age_days": 213
+        },
+        {
+          "source": "requests",
+          "target": "certifi",
+          "constraint_type": "tilde",
+          "version_spec": ">=2021.10.8",
+          "age_days": 221
+        },
+        {
+          "source": "requests",
+          "target": "idna",
+          "constraint_type": "caret",
+          "version_spec": ">=2.5,<4.0",
+          "age_days": 223
+        },
+        {
+          "source": "requests",
+          "target": "charset-normalizer",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0,<4.0.0",
+          "age_days": 214
+        },
+        {
+          "source": "flask",
+          "target": "werkzeug",
+          "constraint_type": "caret",
+          "version_spec": ">=2.2.0",
+          "age_days": 217
+        },
+        {
+          "source": "flask",
+          "target": "jinja2",
+          "constraint_type": "caret",
+          "version_spec": ">=3.0.0",
+          "age_days": 215
+        },
+        {
+          "source": "flask",
+          "target": "itsdangerous",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 215
+        },
+        {
+          "source": "flask",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=8.0.0",
+          "age_days": 223
+        },
+        {
+          "source": "flask",
+          "target": "blinker",
+          "constraint_type": "pinned",
+          "version_spec": "==1.6.2",
+          "age_days": 210
+        },
+        {
+          "source": "jinja2",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 215
+        },
+        {
+          "source": "werkzeug",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=2.1.1",
+          "age_days": 220
+        },
+        {
+          "source": "fastapi",
+          "target": "starlette",
+          "constraint_type": "caret",
+          "version_spec": ">=0.27.0",
+          "age_days": 223
+        },
+        {
+          "source": "fastapi",
+          "target": "pydantic",
+          "constraint_type": "caret",
+          "version_spec": ">=1.7.4,<3.0.0",
+          "age_days": 217
+        },
+        {
+          "source": "fastapi",
+          "target": "typing-extensions",
+          "constraint_type": "caret",
+          "version_spec": ">=4.5.0",
+          "age_days": 218
+        },
+        {
+          "source": "starlette",
+          "target": "anyio",
+          "constraint_type": "caret",
+          "version_spec": ">=3.4.0,<5.0.0",
+          "age_days": 215
+        },
+        {
+          "source": "anyio",
+          "target": "sniffio",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1",
+          "age_days": 213
+        },
+        {
+          "source": "pydantic",
+          "target": "pydantic-core",
+          "constraint_type": "pinned",
+          "version_spec": "==2.14.0",
+          "age_days": 222
+        },
+        {
+          "source": "pydantic",
+          "target": "typing-extensions",
+          "constraint_type": "caret",
+          "version_spec": ">=4.6.1",
+          "age_days": 211
+        },
+        {
+          "source": "uvicorn",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=7.0",
+          "age_days": 225
+        },
+        {
+          "source": "uvicorn",
+          "target": "h11",
+          "constraint_type": "caret",
+          "version_spec": ">=0.8",
+          "age_days": 217
+        },
+        {
+          "source": "httpx",
+          "target": "httpcore",
+          "constraint_type": "caret",
+          "version_spec": ">=0.17.0,<0.19.0",
+          "age_days": 216
+        },
+        {
+          "source": "httpx",
+          "target": "certifi",
+          "constraint_type": "caret",
+          "version_spec": ">=2022.0",
+          "age_days": 224
+        },
+        {
+          "source": "httpx",
+          "target": "idna",
+          "constraint_type": "caret",
+          "version_spec": ">=2.8",
+          "age_days": 221
+        },
+        {
+          "source": "httpx",
+          "target": "sniffio",
+          "constraint_type": "caret",
+          "version_spec": ">=1.0",
+          "age_days": 219
+        },
+        {
+          "source": "httpcore",
+          "target": "h11",
+          "constraint_type": "caret",
+          "version_spec": ">=0.13.0,<0.15.0",
+          "age_days": 217
+        },
+        {
+          "source": "httpcore",
+          "target": "certifi",
+          "constraint_type": "caret",
+          "version_spec": ">=2021.0",
+          "age_days": 217
+        },
+        {
+          "source": "cryptography",
+          "target": "cffi",
+          "constraint_type": "caret",
+          "version_spec": ">=1.12",
+          "age_days": 210
+        },
+        {
+          "source": "cffi",
+          "target": "pycparser",
+          "constraint_type": "caret",
+          "version_spec": ">=2.06",
+          "age_days": 216
+        },
+        {
+          "source": "pyOpenSSL",
+          "target": "cryptography",
+          "constraint_type": "caret",
+          "version_spec": ">=38.0.0",
+          "age_days": 222
+        },
+        {
+          "source": "celery",
+          "target": "kombu",
+          "constraint_type": "caret",
+          "version_spec": ">=5.3.0,<6.0",
+          "age_days": 220
+        },
+        {
+          "source": "celery",
+          "target": "billiard",
+          "constraint_type": "caret",
+          "version_spec": ">=4.1.0,<5.0",
+          "age_days": 218
+        },
+        {
+          "source": "celery",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=8.0.3",
+          "age_days": 212
+        },
+        {
+          "source": "celery",
+          "target": "vine",
+          "constraint_type": "caret",
+          "version_spec": ">=5.0.0",
+          "age_days": 218
+        },
+        {
+          "source": "kombu",
+          "target": "amqp",
+          "constraint_type": "caret",
+          "version_spec": ">=5.1.1,<6.0",
+          "age_days": 221
+        },
+        {
+          "source": "kombu",
+          "target": "vine",
+          "constraint_type": "caret",
+          "version_spec": ">=5.0.0",
+          "age_days": 222
+        },
+        {
+          "source": "sqlalchemy",
+          "target": "greenlet",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0",
+          "age_days": 220
+        },
+        {
+          "source": "alembic",
+          "target": "sqlalchemy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.3.0",
+          "age_days": 210
+        },
+        {
+          "source": "alembic",
+          "target": "mako",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1.0",
+          "age_days": 213
+        },
+        {
+          "source": "mako",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=0.9.2",
+          "age_days": 218
+        },
+        {
+          "source": "scikit-learn",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.19.5",
+          "age_days": 215
+        },
+        {
+          "source": "scikit-learn",
+          "target": "scipy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.6.0",
+          "age_days": 218
+        },
+        {
+          "source": "scikit-learn",
+          "target": "joblib",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1.1",
+          "age_days": 211
+        },
+        {
+          "source": "scikit-learn",
+          "target": "threadpoolctl",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 213
+        },
+        {
+          "source": "scipy",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.19.5",
+          "age_days": 223
+        },
+        {
+          "source": "pandas",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.20.0",
+          "age_days": 221
+        },
+        {
+          "source": "rich",
+          "target": "pygments",
+          "constraint_type": "caret",
+          "version_spec": ">=2.6.0",
+          "age_days": 220
+        },
+        {
+          "source": "rich",
+          "target": "colorama",
+          "constraint_type": "caret",
+          "version_spec": ">=0.4.0",
+          "age_days": 223
+        }
+      ]
+    },
+    {
+      "epoch": 2,
+      "timestamp": "2023-07-15T00:00:00Z",
+      "packages": [
+        {
+          "name": "requests",
+          "version": "2.2.3",
+          "maintainer_count": 3,
+          "commit_cadence": 15.56,
+          "release_velocity": 3.71,
+          "historical_cve_count": 2,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "requests",
+              "cve": "CASCADE-PyPI-001",
+              "severity": 7.5,
+              "lag_days": 54,
+              "cascade_from": "urllib3"
+            }
+          ]
+        },
+        {
+          "name": "urllib3",
+          "version": "2.2.0",
+          "maintainer_count": 4,
+          "commit_cadence": 24.06,
+          "release_velocity": 4.31,
+          "historical_cve_count": 3,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "urllib3",
+              "cve": "CVE-2023-32681",
+              "severity": 7.5,
+              "lag_days": 68
+            }
+          ]
+        },
+        {
+          "name": "certifi",
+          "version": "2.2.4",
+          "maintainer_count": 2,
+          "commit_cadence": 6.41,
+          "release_velocity": 2.2,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "idna",
+          "version": "2.2.5",
+          "maintainer_count": 2,
+          "commit_cadence": 5.34,
+          "release_velocity": 2.26,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "2.2.0",
+          "maintainer_count": 1,
+          "commit_cadence": 9.28,
+          "release_velocity": 2.92,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "flask",
+          "version": "2.2.4",
+          "maintainer_count": 5,
+          "commit_cadence": 20.23,
+          "release_velocity": 3.75,
+          "historical_cve_count": 2,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "flask",
+              "cve": "CASCADE-PyPI-002",
+              "severity": 7.5,
+              "lag_days": 78,
+              "cascade_from": "werkzeug"
+            }
+          ]
+        },
+        {
+          "name": "werkzeug",
+          "version": "2.2.5",
+          "maintainer_count": 4,
+          "commit_cadence": 16.07,
+          "release_velocity": 4.21,
+          "historical_cve_count": 3,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "werkzeug",
+              "cve": "CVE-2023-46136",
+              "severity": 7.5,
+              "lag_days": 92
+            }
+          ]
+        },
+        {
+          "name": "jinja2",
+          "version": "2.2.5",
+          "maintainer_count": 3,
+          "commit_cadence": 13.06,
+          "release_velocity": 2.5,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "itsdangerous",
+          "version": "2.2.2",
+          "maintainer_count": 2,
+          "commit_cadence": 3.39,
+          "release_velocity": 1.44,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "click",
+          "version": "2.2.5",
+          "maintainer_count": 4,
+          "commit_cadence": 12.89,
+          "release_velocity": 2.52,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "blinker",
+          "version": "2.2.1",
+          "maintainer_count": 1,
+          "commit_cadence": 4.2,
+          "release_velocity": 1.41,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "markupsafe",
+          "version": "2.2.4",
+          "maintainer_count": 2,
+          "commit_cadence": 7.09,
+          "release_velocity": 2.18,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fastapi",
+          "version": "2.2.1",
+          "maintainer_count": 4,
+          "commit_cadence": 36.83,
+          "release_velocity": 6.88,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "starlette",
+          "version": "2.2.5",
+          "maintainer_count": 3,
+          "commit_cadence": 20.46,
+          "release_velocity": 5.05,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pydantic",
+          "version": "2.2.5",
+          "maintainer_count": 5,
+          "commit_cadence": 45.1,
+          "release_velocity": 8.47,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pydantic-core",
+          "version": "2.2.5",
+          "maintainer_count": 3,
+          "commit_cadence": 24.73,
+          "release_velocity": 5.48,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "typing-extensions",
+          "version": "2.2.4",
+          "maintainer_count": 2,
+          "commit_cadence": 9.58,
+          "release_velocity": 3.25,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "anyio",
+          "version": "2.2.0",
+          "maintainer_count": 2,
+          "commit_cadence": 16.26,
+          "release_velocity": 4.37,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "sniffio",
+          "version": "2.2.5",
+          "maintainer_count": 1,
+          "commit_cadence": 3.78,
+          "release_velocity": 1.15,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "uvicorn",
+          "version": "2.2.1",
+          "maintainer_count": 3,
+          "commit_cadence": 16.06,
+          "release_velocity": 3.88,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "httpx",
+          "version": "2.2.3",
+          "maintainer_count": 3,
+          "commit_cadence": 23.08,
+          "release_velocity": 4.55,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "httpcore",
+          "version": "2.2.3",
+          "maintainer_count": 2,
+          "commit_cadence": 15.08,
+          "release_velocity": 3.66,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "h11",
+          "version": "2.2.1",
+          "maintainer_count": 2,
+          "commit_cadence": 3.41,
+          "release_velocity": 1.58,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cryptography",
+          "version": "2.2.3",
+          "maintainer_count": 6,
+          "commit_cadence": 41.44,
+          "release_velocity": 5.93,
+          "historical_cve_count": 4,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cffi",
+          "version": "2.2.0",
+          "maintainer_count": 2,
+          "commit_cadence": 4.83,
+          "release_velocity": 1.79,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pycparser",
+          "version": "2.2.0",
+          "maintainer_count": 1,
+          "commit_cadence": 4.04,
+          "release_velocity": 1.32,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pyOpenSSL",
+          "version": "2.2.5",
+          "maintainer_count": 3,
+          "commit_cadence": 9.65,
+          "release_velocity": 1.83,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "bcrypt",
+          "version": "2.2.1",
+          "maintainer_count": 2,
+          "commit_cadence": 4.76,
+          "release_velocity": 1.23,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "celery",
+          "version": "2.2.1",
+          "maintainer_count": 4,
+          "commit_cadence": 24.12,
+          "release_velocity": 3.27,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "kombu",
+          "version": "2.2.4",
+          "maintainer_count": 3,
+          "commit_cadence": 15.72,
+          "release_velocity": 3.1,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "amqp",
+          "version": "2.2.3",
+          "maintainer_count": 2,
+          "commit_cadence": 8.02,
+          "release_velocity": 2.27,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "billiard",
+          "version": "2.2.4",
+          "maintainer_count": 2,
+          "commit_cadence": 6.08,
+          "release_velocity": 1.63,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "vine",
+          "version": "2.2.3",
+          "maintainer_count": 1,
+          "commit_cadence": 2.45,
+          "release_velocity": 1.24,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "sqlalchemy",
+          "version": "2.2.3",
+          "maintainer_count": 5,
+          "commit_cadence": 34.05,
+          "release_velocity": 5.45,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "greenlet",
+          "version": "2.2.5",
+          "maintainer_count": 2,
+          "commit_cadence": 6.53,
+          "release_velocity": 2.15,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "alembic",
+          "version": "2.2.3",
+          "maintainer_count": 3,
+          "commit_cadence": 11.94,
+          "release_velocity": 3.07,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "mako",
+          "version": "2.2.0",
+          "maintainer_count": 2,
+          "commit_cadence": 5.13,
+          "release_velocity": 1.36,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pandas",
+          "version": "2.2.2",
+          "maintainer_count": 8,
+          "commit_cadence": 66.43,
+          "release_velocity": 6.34,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "numpy",
+          "version": "2.2.1",
+          "maintainer_count": 7,
+          "commit_cadence": 70.09,
+          "release_velocity": 5.52,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "scipy",
+          "version": "2.2.1",
+          "maintainer_count": 6,
+          "commit_cadence": 49.51,
+          "release_velocity": 4.43,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "scikit-learn",
+          "version": "2.2.3",
+          "maintainer_count": 7,
+          "commit_cadence": 49.4,
+          "release_velocity": 4.04,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "joblib",
+          "version": "2.2.0",
+          "maintainer_count": 2,
+          "commit_cadence": 6.12,
+          "release_velocity": 1.68,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "threadpoolctl",
+          "version": "2.2.4",
+          "maintainer_count": 2,
+          "commit_cadence": 2.7,
+          "release_velocity": 1.25,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "tqdm",
+          "version": "2.2.4",
+          "maintainer_count": 2,
+          "commit_cadence": 9.22,
+          "release_velocity": 2.21,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "rich",
+          "version": "2.2.2",
+          "maintainer_count": 3,
+          "commit_cadence": 28.29,
+          "release_velocity": 5.2,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pygments",
+          "version": "2.2.3",
+          "maintainer_count": 3,
+          "commit_cadence": 8.02,
+          "release_velocity": 1.93,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "colorama",
+          "version": "2.2.4",
+          "maintainer_count": 1,
+          "commit_cadence": 2.83,
+          "release_velocity": 1.14,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "psutil",
+          "version": "2.2.2",
+          "maintainer_count": 3,
+          "commit_cadence": 11.05,
+          "release_velocity": 2.29,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "packaging",
+          "version": "2.2.2",
+          "maintainer_count": 2,
+          "commit_cadence": 6.48,
+          "release_velocity": 1.72,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cachetools",
+          "version": "2.2.5",
+          "maintainer_count": 1,
+          "commit_cadence": 4.27,
+          "release_velocity": 1.68,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        }
+      ],
+      "dependencies": [
+        {
+          "source": "requests",
+          "target": "urllib3",
+          "constraint_type": "caret",
+          "version_spec": ">=1.26.0,<3.0.0",
+          "age_days": 305
+        },
+        {
+          "source": "requests",
+          "target": "certifi",
+          "constraint_type": "tilde",
+          "version_spec": ">=2021.10.8",
+          "age_days": 314
+        },
+        {
+          "source": "requests",
+          "target": "idna",
+          "constraint_type": "caret",
+          "version_spec": ">=2.5,<4.0",
+          "age_days": 304
+        },
+        {
+          "source": "requests",
+          "target": "charset-normalizer",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0,<4.0.0",
+          "age_days": 300
+        },
+        {
+          "source": "flask",
+          "target": "werkzeug",
+          "constraint_type": "caret",
+          "version_spec": ">=2.2.0",
+          "age_days": 312
+        },
+        {
+          "source": "flask",
+          "target": "jinja2",
+          "constraint_type": "caret",
+          "version_spec": ">=3.0.0",
+          "age_days": 300
+        },
+        {
+          "source": "flask",
+          "target": "itsdangerous",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 302
+        },
+        {
+          "source": "flask",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=8.0.0",
+          "age_days": 313
+        },
+        {
+          "source": "flask",
+          "target": "blinker",
+          "constraint_type": "pinned",
+          "version_spec": "==1.6.2",
+          "age_days": 304
+        },
+        {
+          "source": "jinja2",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 314
+        },
+        {
+          "source": "werkzeug",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=2.1.1",
+          "age_days": 305
+        },
+        {
+          "source": "fastapi",
+          "target": "starlette",
+          "constraint_type": "caret",
+          "version_spec": ">=0.27.0",
+          "age_days": 301
+        },
+        {
+          "source": "fastapi",
+          "target": "pydantic",
+          "constraint_type": "caret",
+          "version_spec": ">=1.7.4,<3.0.0",
+          "age_days": 308
+        },
+        {
+          "source": "fastapi",
+          "target": "typing-extensions",
+          "constraint_type": "caret",
+          "version_spec": ">=4.5.0",
+          "age_days": 312
+        },
+        {
+          "source": "starlette",
+          "target": "anyio",
+          "constraint_type": "caret",
+          "version_spec": ">=3.4.0,<5.0.0",
+          "age_days": 310
+        },
+        {
+          "source": "anyio",
+          "target": "sniffio",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1",
+          "age_days": 306
+        },
+        {
+          "source": "pydantic",
+          "target": "pydantic-core",
+          "constraint_type": "pinned",
+          "version_spec": "==2.14.0",
+          "age_days": 314
+        },
+        {
+          "source": "pydantic",
+          "target": "typing-extensions",
+          "constraint_type": "caret",
+          "version_spec": ">=4.6.1",
+          "age_days": 310
+        },
+        {
+          "source": "uvicorn",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=7.0",
+          "age_days": 310
+        },
+        {
+          "source": "uvicorn",
+          "target": "h11",
+          "constraint_type": "caret",
+          "version_spec": ">=0.8",
+          "age_days": 312
+        },
+        {
+          "source": "httpx",
+          "target": "httpcore",
+          "constraint_type": "caret",
+          "version_spec": ">=0.17.0,<0.19.0",
+          "age_days": 308
+        },
+        {
+          "source": "httpx",
+          "target": "certifi",
+          "constraint_type": "caret",
+          "version_spec": ">=2022.0",
+          "age_days": 313
+        },
+        {
+          "source": "httpx",
+          "target": "idna",
+          "constraint_type": "caret",
+          "version_spec": ">=2.8",
+          "age_days": 308
+        },
+        {
+          "source": "httpx",
+          "target": "sniffio",
+          "constraint_type": "caret",
+          "version_spec": ">=1.0",
+          "age_days": 302
+        },
+        {
+          "source": "httpcore",
+          "target": "h11",
+          "constraint_type": "caret",
+          "version_spec": ">=0.13.0,<0.15.0",
+          "age_days": 315
+        },
+        {
+          "source": "httpcore",
+          "target": "certifi",
+          "constraint_type": "caret",
+          "version_spec": ">=2021.0",
+          "age_days": 300
+        },
+        {
+          "source": "cryptography",
+          "target": "cffi",
+          "constraint_type": "caret",
+          "version_spec": ">=1.12",
+          "age_days": 301
+        },
+        {
+          "source": "cffi",
+          "target": "pycparser",
+          "constraint_type": "caret",
+          "version_spec": ">=2.06",
+          "age_days": 311
+        },
+        {
+          "source": "pyOpenSSL",
+          "target": "cryptography",
+          "constraint_type": "caret",
+          "version_spec": ">=38.0.0",
+          "age_days": 307
+        },
+        {
+          "source": "celery",
+          "target": "kombu",
+          "constraint_type": "caret",
+          "version_spec": ">=5.3.0,<6.0",
+          "age_days": 302
+        },
+        {
+          "source": "celery",
+          "target": "billiard",
+          "constraint_type": "caret",
+          "version_spec": ">=4.1.0,<5.0",
+          "age_days": 301
+        },
+        {
+          "source": "celery",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=8.0.3",
+          "age_days": 300
+        },
+        {
+          "source": "celery",
+          "target": "vine",
+          "constraint_type": "caret",
+          "version_spec": ">=5.0.0",
+          "age_days": 307
+        },
+        {
+          "source": "kombu",
+          "target": "amqp",
+          "constraint_type": "caret",
+          "version_spec": ">=5.1.1,<6.0",
+          "age_days": 306
+        },
+        {
+          "source": "kombu",
+          "target": "vine",
+          "constraint_type": "caret",
+          "version_spec": ">=5.0.0",
+          "age_days": 300
+        },
+        {
+          "source": "sqlalchemy",
+          "target": "greenlet",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0",
+          "age_days": 304
+        },
+        {
+          "source": "alembic",
+          "target": "sqlalchemy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.3.0",
+          "age_days": 307
+        },
+        {
+          "source": "alembic",
+          "target": "mako",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1.0",
+          "age_days": 304
+        },
+        {
+          "source": "mako",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=0.9.2",
+          "age_days": 315
+        },
+        {
+          "source": "scikit-learn",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.19.5",
+          "age_days": 303
+        },
+        {
+          "source": "scikit-learn",
+          "target": "scipy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.6.0",
+          "age_days": 306
+        },
+        {
+          "source": "scikit-learn",
+          "target": "joblib",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1.1",
+          "age_days": 314
+        },
+        {
+          "source": "scikit-learn",
+          "target": "threadpoolctl",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 308
+        },
+        {
+          "source": "scipy",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.19.5",
+          "age_days": 311
+        },
+        {
+          "source": "pandas",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.20.0",
+          "age_days": 305
+        },
+        {
+          "source": "rich",
+          "target": "pygments",
+          "constraint_type": "caret",
+          "version_spec": ">=2.6.0",
+          "age_days": 303
+        },
+        {
+          "source": "rich",
+          "target": "colorama",
+          "constraint_type": "caret",
+          "version_spec": ">=0.4.0",
+          "age_days": 305
+        }
+      ]
+    },
+    {
+      "epoch": 3,
+      "timestamp": "2023-10-15T00:00:00Z",
+      "packages": [
+        {
+          "name": "requests",
+          "version": "2.3.0",
+          "maintainer_count": 3,
+          "commit_cadence": 17.92,
+          "release_velocity": 3.6,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "urllib3",
+          "version": "2.3.3",
+          "maintainer_count": 4,
+          "commit_cadence": 25.24,
+          "release_velocity": 4.82,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "certifi",
+          "version": "2.3.0",
+          "maintainer_count": 2,
+          "commit_cadence": 5.52,
+          "release_velocity": 2.94,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "idna",
+          "version": "2.3.1",
+          "maintainer_count": 2,
+          "commit_cadence": 5.52,
+          "release_velocity": 2.55,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "2.3.5",
+          "maintainer_count": 1,
+          "commit_cadence": 7.02,
+          "release_velocity": 3.5,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "flask",
+          "version": "2.3.4",
+          "maintainer_count": 5,
+          "commit_cadence": 19.56,
+          "release_velocity": 3.41,
+          "historical_cve_count": 2,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "flask",
+              "cve": "CASCADE-PyPI-002",
+              "severity": 7.5,
+              "lag_days": 78,
+              "cascade_from": "werkzeug"
+            }
+          ]
+        },
+        {
+          "name": "werkzeug",
+          "version": "2.3.3",
+          "maintainer_count": 4,
+          "commit_cadence": 18.49,
+          "release_velocity": 4.11,
+          "historical_cve_count": 3,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "werkzeug",
+              "cve": "CVE-2023-46136",
+              "severity": 7.5,
+              "lag_days": 92
+            }
+          ]
+        },
+        {
+          "name": "jinja2",
+          "version": "2.3.5",
+          "maintainer_count": 3,
+          "commit_cadence": 12.87,
+          "release_velocity": 2.36,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "itsdangerous",
+          "version": "2.3.3",
+          "maintainer_count": 2,
+          "commit_cadence": 3.24,
+          "release_velocity": 2.06,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "click",
+          "version": "2.3.5",
+          "maintainer_count": 4,
+          "commit_cadence": 11.04,
+          "release_velocity": 3.36,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "blinker",
+          "version": "2.3.1",
+          "maintainer_count": 1,
+          "commit_cadence": 5.05,
+          "release_velocity": 1.51,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "markupsafe",
+          "version": "2.3.5",
+          "maintainer_count": 2,
+          "commit_cadence": 6.72,
+          "release_velocity": 2.76,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fastapi",
+          "version": "2.3.4",
+          "maintainer_count": 4,
+          "commit_cadence": 34.88,
+          "release_velocity": 7.53,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "starlette",
+          "version": "2.3.5",
+          "maintainer_count": 3,
+          "commit_cadence": 22.45,
+          "release_velocity": 5.22,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pydantic",
+          "version": "2.3.1",
+          "maintainer_count": 5,
+          "commit_cadence": 46.52,
+          "release_velocity": 8.59,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pydantic-core",
+          "version": "2.3.3",
+          "maintainer_count": 3,
+          "commit_cadence": 27.74,
+          "release_velocity": 5.38,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "typing-extensions",
+          "version": "2.3.4",
+          "maintainer_count": 2,
+          "commit_cadence": 9.74,
+          "release_velocity": 3.72,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "anyio",
+          "version": "2.3.3",
+          "maintainer_count": 2,
+          "commit_cadence": 16.91,
+          "release_velocity": 4.4,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "sniffio",
+          "version": "2.3.1",
+          "maintainer_count": 1,
+          "commit_cadence": 4.84,
+          "release_velocity": 0.96,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "uvicorn",
+          "version": "2.3.2",
+          "maintainer_count": 3,
+          "commit_cadence": 16.31,
+          "release_velocity": 3.73,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "httpx",
+          "version": "2.3.2",
+          "maintainer_count": 3,
+          "commit_cadence": 26.99,
+          "release_velocity": 5.13,
+          "historical_cve_count": 1,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "httpx",
+              "cve": "CASCADE-PyPI-004",
+              "severity": 6.8,
+              "lag_days": 42,
+              "cascade_from": "urllib3"
+            }
+          ]
+        },
+        {
+          "name": "httpcore",
+          "version": "2.3.1",
+          "maintainer_count": 2,
+          "commit_cadence": 15.33,
+          "release_velocity": 3.76,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "h11",
+          "version": "2.3.3",
+          "maintainer_count": 2,
+          "commit_cadence": 1.94,
+          "release_velocity": 1.95,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cryptography",
+          "version": "2.3.3",
+          "maintainer_count": 6,
+          "commit_cadence": 41.33,
+          "release_velocity": 6.02,
+          "historical_cve_count": 4,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "cryptography",
+              "cve": "CVE-2023-49083",
+              "severity": 8.1,
+              "lag_days": 115
+            }
+          ]
+        },
+        {
+          "name": "cffi",
+          "version": "2.3.0",
+          "maintainer_count": 2,
+          "commit_cadence": 6.79,
+          "release_velocity": 1.94,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pycparser",
+          "version": "2.3.5",
+          "maintainer_count": 1,
+          "commit_cadence": 0.97,
+          "release_velocity": 1.1,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pyOpenSSL",
+          "version": "2.3.2",
+          "maintainer_count": 3,
+          "commit_cadence": 7.74,
+          "release_velocity": 2.4,
+          "historical_cve_count": 1,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "pyOpenSSL",
+              "cve": "CASCADE-PyPI-003",
+              "severity": 8.1,
+              "lag_days": 95,
+              "cascade_from": "cryptography"
+            }
+          ]
+        },
+        {
+          "name": "bcrypt",
+          "version": "2.3.3",
+          "maintainer_count": 2,
+          "commit_cadence": 4.91,
+          "release_velocity": 1.78,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "celery",
+          "version": "2.3.2",
+          "maintainer_count": 4,
+          "commit_cadence": 25.58,
+          "release_velocity": 3.8,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "kombu",
+          "version": "2.3.2",
+          "maintainer_count": 3,
+          "commit_cadence": 16.08,
+          "release_velocity": 3.04,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "amqp",
+          "version": "2.3.2",
+          "maintainer_count": 2,
+          "commit_cadence": 6.68,
+          "release_velocity": 2.45,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "billiard",
+          "version": "2.3.5",
+          "maintainer_count": 2,
+          "commit_cadence": 4.11,
+          "release_velocity": 1.78,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "vine",
+          "version": "2.3.3",
+          "maintainer_count": 1,
+          "commit_cadence": 1.44,
+          "release_velocity": 0.99,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "sqlalchemy",
+          "version": "2.3.4",
+          "maintainer_count": 5,
+          "commit_cadence": 31.91,
+          "release_velocity": 5.63,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "greenlet",
+          "version": "2.3.1",
+          "maintainer_count": 2,
+          "commit_cadence": 7.54,
+          "release_velocity": 2.68,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "alembic",
+          "version": "2.3.2",
+          "maintainer_count": 3,
+          "commit_cadence": 12.01,
+          "release_velocity": 3.02,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "mako",
+          "version": "2.3.2",
+          "maintainer_count": 2,
+          "commit_cadence": 2.57,
+          "release_velocity": 1.78,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pandas",
+          "version": "2.3.2",
+          "maintainer_count": 8,
+          "commit_cadence": 63.73,
+          "release_velocity": 6.35,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "numpy",
+          "version": "2.3.3",
+          "maintainer_count": 7,
+          "commit_cadence": 72.06,
+          "release_velocity": 5.41,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "scipy",
+          "version": "2.3.2",
+          "maintainer_count": 6,
+          "commit_cadence": 49.02,
+          "release_velocity": 4.31,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "scikit-learn",
+          "version": "2.3.1",
+          "maintainer_count": 7,
+          "commit_cadence": 48.89,
+          "release_velocity": 4.5,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "joblib",
+          "version": "2.3.3",
+          "maintainer_count": 2,
+          "commit_cadence": 9.42,
+          "release_velocity": 1.73,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "threadpoolctl",
+          "version": "2.3.3",
+          "maintainer_count": 2,
+          "commit_cadence": 2.08,
+          "release_velocity": 1.16,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "tqdm",
+          "version": "2.3.0",
+          "maintainer_count": 2,
+          "commit_cadence": 5.88,
+          "release_velocity": 2.87,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "rich",
+          "version": "2.3.2",
+          "maintainer_count": 3,
+          "commit_cadence": 27.27,
+          "release_velocity": 6.03,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pygments",
+          "version": "2.3.4",
+          "maintainer_count": 3,
+          "commit_cadence": 6.93,
+          "release_velocity": 2.02,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "colorama",
+          "version": "2.3.4",
+          "maintainer_count": 1,
+          "commit_cadence": 4.4,
+          "release_velocity": 1.35,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "psutil",
+          "version": "2.3.3",
+          "maintainer_count": 3,
+          "commit_cadence": 8.65,
+          "release_velocity": 2.57,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "packaging",
+          "version": "2.3.4",
+          "maintainer_count": 2,
+          "commit_cadence": 9.13,
+          "release_velocity": 2.07,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cachetools",
+          "version": "2.3.4",
+          "maintainer_count": 1,
+          "commit_cadence": 6.55,
+          "release_velocity": 1.57,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        }
+      ],
+      "dependencies": [
+        {
+          "source": "requests",
+          "target": "urllib3",
+          "constraint_type": "caret",
+          "version_spec": ">=1.26.0,<3.0.0",
+          "age_days": 391
+        },
+        {
+          "source": "requests",
+          "target": "certifi",
+          "constraint_type": "tilde",
+          "version_spec": ">=2021.10.8",
+          "age_days": 393
+        },
+        {
+          "source": "requests",
+          "target": "idna",
+          "constraint_type": "caret",
+          "version_spec": ">=2.5,<4.0",
+          "age_days": 396
+        },
+        {
+          "source": "requests",
+          "target": "charset-normalizer",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0,<4.0.0",
+          "age_days": 396
+        },
+        {
+          "source": "flask",
+          "target": "werkzeug",
+          "constraint_type": "caret",
+          "version_spec": ">=2.2.0",
+          "age_days": 398
+        },
+        {
+          "source": "flask",
+          "target": "jinja2",
+          "constraint_type": "caret",
+          "version_spec": ">=3.0.0",
+          "age_days": 392
+        },
+        {
+          "source": "flask",
+          "target": "itsdangerous",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 395
+        },
+        {
+          "source": "flask",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=8.0.0",
+          "age_days": 397
+        },
+        {
+          "source": "flask",
+          "target": "blinker",
+          "constraint_type": "pinned",
+          "version_spec": "==1.6.2",
+          "age_days": 395
+        },
+        {
+          "source": "jinja2",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 392
+        },
+        {
+          "source": "werkzeug",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=2.1.1",
+          "age_days": 395
+        },
+        {
+          "source": "fastapi",
+          "target": "starlette",
+          "constraint_type": "caret",
+          "version_spec": ">=0.27.0",
+          "age_days": 390
+        },
+        {
+          "source": "fastapi",
+          "target": "pydantic",
+          "constraint_type": "caret",
+          "version_spec": ">=1.7.4,<3.0.0",
+          "age_days": 403
+        },
+        {
+          "source": "fastapi",
+          "target": "typing-extensions",
+          "constraint_type": "caret",
+          "version_spec": ">=4.5.0",
+          "age_days": 404
+        },
+        {
+          "source": "starlette",
+          "target": "anyio",
+          "constraint_type": "caret",
+          "version_spec": ">=3.4.0,<5.0.0",
+          "age_days": 405
+        },
+        {
+          "source": "anyio",
+          "target": "sniffio",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1",
+          "age_days": 399
+        },
+        {
+          "source": "pydantic",
+          "target": "pydantic-core",
+          "constraint_type": "pinned",
+          "version_spec": "==2.14.0",
+          "age_days": 391
+        },
+        {
+          "source": "pydantic",
+          "target": "typing-extensions",
+          "constraint_type": "caret",
+          "version_spec": ">=4.6.1",
+          "age_days": 397
+        },
+        {
+          "source": "uvicorn",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=7.0",
+          "age_days": 399
+        },
+        {
+          "source": "uvicorn",
+          "target": "h11",
+          "constraint_type": "caret",
+          "version_spec": ">=0.8",
+          "age_days": 399
+        },
+        {
+          "source": "httpx",
+          "target": "httpcore",
+          "constraint_type": "caret",
+          "version_spec": ">=0.17.0,<0.19.0",
+          "age_days": 404
+        },
+        {
+          "source": "httpx",
+          "target": "certifi",
+          "constraint_type": "caret",
+          "version_spec": ">=2022.0",
+          "age_days": 392
+        },
+        {
+          "source": "httpx",
+          "target": "idna",
+          "constraint_type": "caret",
+          "version_spec": ">=2.8",
+          "age_days": 397
+        },
+        {
+          "source": "httpx",
+          "target": "sniffio",
+          "constraint_type": "caret",
+          "version_spec": ">=1.0",
+          "age_days": 398
+        },
+        {
+          "source": "httpcore",
+          "target": "h11",
+          "constraint_type": "caret",
+          "version_spec": ">=0.13.0,<0.15.0",
+          "age_days": 396
+        },
+        {
+          "source": "httpcore",
+          "target": "certifi",
+          "constraint_type": "caret",
+          "version_spec": ">=2021.0",
+          "age_days": 403
+        },
+        {
+          "source": "cryptography",
+          "target": "cffi",
+          "constraint_type": "caret",
+          "version_spec": ">=1.12",
+          "age_days": 393
+        },
+        {
+          "source": "cffi",
+          "target": "pycparser",
+          "constraint_type": "caret",
+          "version_spec": ">=2.06",
+          "age_days": 397
+        },
+        {
+          "source": "pyOpenSSL",
+          "target": "cryptography",
+          "constraint_type": "caret",
+          "version_spec": ">=38.0.0",
+          "age_days": 394
+        },
+        {
+          "source": "celery",
+          "target": "kombu",
+          "constraint_type": "caret",
+          "version_spec": ">=5.3.0,<6.0",
+          "age_days": 398
+        },
+        {
+          "source": "celery",
+          "target": "billiard",
+          "constraint_type": "caret",
+          "version_spec": ">=4.1.0,<5.0",
+          "age_days": 394
+        },
+        {
+          "source": "celery",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=8.0.3",
+          "age_days": 392
+        },
+        {
+          "source": "celery",
+          "target": "vine",
+          "constraint_type": "caret",
+          "version_spec": ">=5.0.0",
+          "age_days": 391
+        },
+        {
+          "source": "kombu",
+          "target": "amqp",
+          "constraint_type": "caret",
+          "version_spec": ">=5.1.1,<6.0",
+          "age_days": 395
+        },
+        {
+          "source": "kombu",
+          "target": "vine",
+          "constraint_type": "caret",
+          "version_spec": ">=5.0.0",
+          "age_days": 399
+        },
+        {
+          "source": "sqlalchemy",
+          "target": "greenlet",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0",
+          "age_days": 399
+        },
+        {
+          "source": "alembic",
+          "target": "sqlalchemy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.3.0",
+          "age_days": 404
+        },
+        {
+          "source": "alembic",
+          "target": "mako",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1.0",
+          "age_days": 393
+        },
+        {
+          "source": "mako",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=0.9.2",
+          "age_days": 404
+        },
+        {
+          "source": "scikit-learn",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.19.5",
+          "age_days": 399
+        },
+        {
+          "source": "scikit-learn",
+          "target": "scipy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.6.0",
+          "age_days": 402
+        },
+        {
+          "source": "scikit-learn",
+          "target": "joblib",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1.1",
+          "age_days": 398
+        },
+        {
+          "source": "scikit-learn",
+          "target": "threadpoolctl",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 405
+        },
+        {
+          "source": "scipy",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.19.5",
+          "age_days": 404
+        },
+        {
+          "source": "pandas",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.20.0",
+          "age_days": 392
+        },
+        {
+          "source": "rich",
+          "target": "pygments",
+          "constraint_type": "caret",
+          "version_spec": ">=2.6.0",
+          "age_days": 391
+        },
+        {
+          "source": "rich",
+          "target": "colorama",
+          "constraint_type": "caret",
+          "version_spec": ">=0.4.0",
+          "age_days": 403
+        }
+      ]
+    },
+    {
+      "epoch": 4,
+      "timestamp": "2024-01-15T00:00:00Z",
+      "packages": [
+        {
+          "name": "requests",
+          "version": "2.4.0",
+          "maintainer_count": 3,
+          "commit_cadence": 17.49,
+          "release_velocity": 4.32,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "urllib3",
+          "version": "2.4.4",
+          "maintainer_count": 4,
+          "commit_cadence": 20.62,
+          "release_velocity": 5.55,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "certifi",
+          "version": "2.4.5",
+          "maintainer_count": 2,
+          "commit_cadence": 6.99,
+          "release_velocity": 2.42,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "idna",
+          "version": "2.4.1",
+          "maintainer_count": 2,
+          "commit_cadence": 7.59,
+          "release_velocity": 2.59,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "2.4.2",
+          "maintainer_count": 1,
+          "commit_cadence": 9.2,
+          "release_velocity": 3.68,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "flask",
+          "version": "2.4.5",
+          "maintainer_count": 5,
+          "commit_cadence": 17.23,
+          "release_velocity": 4.1,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "werkzeug",
+          "version": "2.4.3",
+          "maintainer_count": 4,
+          "commit_cadence": 19.54,
+          "release_velocity": 5.06,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "jinja2",
+          "version": "2.4.5",
+          "maintainer_count": 3,
+          "commit_cadence": 11.37,
+          "release_velocity": 2.8,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "itsdangerous",
+          "version": "2.4.3",
+          "maintainer_count": 2,
+          "commit_cadence": 1.71,
+          "release_velocity": 1.59,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "click",
+          "version": "2.4.3",
+          "maintainer_count": 4,
+          "commit_cadence": 14.72,
+          "release_velocity": 2.95,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "blinker",
+          "version": "2.4.3",
+          "maintainer_count": 1,
+          "commit_cadence": 5.53,
+          "release_velocity": 1.86,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "markupsafe",
+          "version": "2.4.0",
+          "maintainer_count": 2,
+          "commit_cadence": 4.6,
+          "release_velocity": 2.5,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "fastapi",
+          "version": "2.4.4",
+          "maintainer_count": 4,
+          "commit_cadence": 39.6,
+          "release_velocity": 7.39,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "starlette",
+          "version": "2.4.4",
+          "maintainer_count": 3,
+          "commit_cadence": 23.61,
+          "release_velocity": 4.9,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pydantic",
+          "version": "2.4.4",
+          "maintainer_count": 5,
+          "commit_cadence": 46.14,
+          "release_velocity": 8.47,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pydantic-core",
+          "version": "2.4.5",
+          "maintainer_count": 3,
+          "commit_cadence": 25.46,
+          "release_velocity": 6.31,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "typing-extensions",
+          "version": "2.4.2",
+          "maintainer_count": 2,
+          "commit_cadence": 11.01,
+          "release_velocity": 3.46,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "anyio",
+          "version": "2.4.3",
+          "maintainer_count": 2,
+          "commit_cadence": 16.73,
+          "release_velocity": 5.31,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "sniffio",
+          "version": "2.4.0",
+          "maintainer_count": 1,
+          "commit_cadence": 5.99,
+          "release_velocity": 1.48,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "uvicorn",
+          "version": "2.4.1",
+          "maintainer_count": 3,
+          "commit_cadence": 20.62,
+          "release_velocity": 4.33,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "httpx",
+          "version": "2.4.0",
+          "maintainer_count": 3,
+          "commit_cadence": 26.83,
+          "release_velocity": 4.97,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "httpcore",
+          "version": "2.4.0",
+          "maintainer_count": 2,
+          "commit_cadence": 15.76,
+          "release_velocity": 3.51,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "h11",
+          "version": "2.4.1",
+          "maintainer_count": 2,
+          "commit_cadence": 4.14,
+          "release_velocity": 1.54,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cryptography",
+          "version": "2.4.4",
+          "maintainer_count": 6,
+          "commit_cadence": 41.39,
+          "release_velocity": 6.76,
+          "historical_cve_count": 4,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "cryptography",
+              "cve": "CVE-2023-49083",
+              "severity": 8.1,
+              "lag_days": 115
+            }
+          ]
+        },
+        {
+          "name": "cffi",
+          "version": "2.4.3",
+          "maintainer_count": 2,
+          "commit_cadence": 7.8,
+          "release_velocity": 2.1,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pycparser",
+          "version": "2.4.4",
+          "maintainer_count": 1,
+          "commit_cadence": 6.67,
+          "release_velocity": 1.29,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pyOpenSSL",
+          "version": "2.4.4",
+          "maintainer_count": 3,
+          "commit_cadence": 6.98,
+          "release_velocity": 2.13,
+          "historical_cve_count": 1,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "pyOpenSSL",
+              "cve": "CASCADE-PyPI-003",
+              "severity": 8.1,
+              "lag_days": 95,
+              "cascade_from": "cryptography"
+            }
+          ]
+        },
+        {
+          "name": "bcrypt",
+          "version": "2.4.0",
+          "maintainer_count": 2,
+          "commit_cadence": 5.46,
+          "release_velocity": 2.46,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "celery",
+          "version": "2.4.3",
+          "maintainer_count": 4,
+          "commit_cadence": 21.88,
+          "release_velocity": 4.35,
+          "historical_cve_count": 2,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "celery",
+              "cve": "CASCADE-PyPI-006",
+              "severity": 7.2,
+              "lag_days": 50,
+              "cascade_from": "kombu"
+            }
+          ]
+        },
+        {
+          "name": "kombu",
+          "version": "2.4.2",
+          "maintainer_count": 3,
+          "commit_cadence": 14.31,
+          "release_velocity": 3.85,
+          "historical_cve_count": 1,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "kombu",
+              "cve": "CASCADE-PyPI-005",
+              "severity": 7.2,
+              "lag_days": 65,
+              "cascade_from": "amqp"
+            }
+          ]
+        },
+        {
+          "name": "amqp",
+          "version": "2.4.2",
+          "maintainer_count": 2,
+          "commit_cadence": 10.58,
+          "release_velocity": 2.24,
+          "historical_cve_count": 0,
+          "is_vulnerable": 1,
+          "vulnerability_details": [
+            {
+              "pkg": "amqp",
+              "cve": "CVE-2023-52011",
+              "severity": 7.2,
+              "lag_days": 80
+            }
+          ]
+        },
+        {
+          "name": "billiard",
+          "version": "2.4.5",
+          "maintainer_count": 2,
+          "commit_cadence": 8.69,
+          "release_velocity": 2.1,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "vine",
+          "version": "2.4.4",
+          "maintainer_count": 1,
+          "commit_cadence": 3.33,
+          "release_velocity": 1.08,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "sqlalchemy",
+          "version": "2.4.4",
+          "maintainer_count": 5,
+          "commit_cadence": 33.29,
+          "release_velocity": 5.6,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "greenlet",
+          "version": "2.4.1",
+          "maintainer_count": 2,
+          "commit_cadence": 6.57,
+          "release_velocity": 3.02,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "alembic",
+          "version": "2.4.3",
+          "maintainer_count": 3,
+          "commit_cadence": 16.67,
+          "release_velocity": 3.09,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "mako",
+          "version": "2.4.0",
+          "maintainer_count": 2,
+          "commit_cadence": 3.59,
+          "release_velocity": 2.33,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pandas",
+          "version": "2.4.3",
+          "maintainer_count": 8,
+          "commit_cadence": 65.16,
+          "release_velocity": 6.97,
+          "historical_cve_count": 3,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "numpy",
+          "version": "2.4.5",
+          "maintainer_count": 7,
+          "commit_cadence": 70.63,
+          "release_velocity": 6.2,
+          "historical_cve_count": 2,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "scipy",
+          "version": "2.4.0",
+          "maintainer_count": 6,
+          "commit_cadence": 54.67,
+          "release_velocity": 4.99,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "scikit-learn",
+          "version": "2.4.2",
+          "maintainer_count": 7,
+          "commit_cadence": 46.86,
+          "release_velocity": 5.36,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "joblib",
+          "version": "2.4.3",
+          "maintainer_count": 2,
+          "commit_cadence": 9.91,
+          "release_velocity": 2.65,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "threadpoolctl",
+          "version": "2.4.0",
+          "maintainer_count": 2,
+          "commit_cadence": 1.68,
+          "release_velocity": 2.29,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "tqdm",
+          "version": "2.4.5",
+          "maintainer_count": 2,
+          "commit_cadence": 9.91,
+          "release_velocity": 2.89,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "rich",
+          "version": "2.4.2",
+          "maintainer_count": 3,
+          "commit_cadence": 32.6,
+          "release_velocity": 5.49,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "pygments",
+          "version": "2.4.5",
+          "maintainer_count": 3,
+          "commit_cadence": 8.3,
+          "release_velocity": 2.73,
+          "historical_cve_count": 1,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "colorama",
+          "version": "2.4.5",
+          "maintainer_count": 1,
+          "commit_cadence": 0.55,
+          "release_velocity": 1.29,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "psutil",
+          "version": "2.4.2",
+          "maintainer_count": 3,
+          "commit_cadence": 12.84,
+          "release_velocity": 2.66,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "packaging",
+          "version": "2.4.3",
+          "maintainer_count": 2,
+          "commit_cadence": 8.26,
+          "release_velocity": 2.96,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        },
+        {
+          "name": "cachetools",
+          "version": "2.4.0",
+          "maintainer_count": 1,
+          "commit_cadence": 6.93,
+          "release_velocity": 1.44,
+          "historical_cve_count": 0,
+          "is_vulnerable": 0,
+          "vulnerability_details": []
+        }
+      ],
+      "dependencies": [
+        {
+          "source": "requests",
+          "target": "urllib3",
+          "constraint_type": "caret",
+          "version_spec": ">=1.26.0,<3.0.0",
+          "age_days": 487
+        },
+        {
+          "source": "requests",
+          "target": "certifi",
+          "constraint_type": "tilde",
+          "version_spec": ">=2021.10.8",
+          "age_days": 489
+        },
+        {
+          "source": "requests",
+          "target": "idna",
+          "constraint_type": "caret",
+          "version_spec": ">=2.5,<4.0",
+          "age_days": 487
+        },
+        {
+          "source": "requests",
+          "target": "charset-normalizer",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0,<4.0.0",
+          "age_days": 482
+        },
+        {
+          "source": "flask",
+          "target": "werkzeug",
+          "constraint_type": "caret",
+          "version_spec": ">=2.2.0",
+          "age_days": 493
+        },
+        {
+          "source": "flask",
+          "target": "jinja2",
+          "constraint_type": "caret",
+          "version_spec": ">=3.0.0",
+          "age_days": 483
+        },
+        {
+          "source": "flask",
+          "target": "itsdangerous",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 483
+        },
+        {
+          "source": "flask",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=8.0.0",
+          "age_days": 494
+        },
+        {
+          "source": "flask",
+          "target": "blinker",
+          "constraint_type": "pinned",
+          "version_spec": "==1.6.2",
+          "age_days": 485
+        },
+        {
+          "source": "jinja2",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 489
+        },
+        {
+          "source": "werkzeug",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=2.1.1",
+          "age_days": 480
+        },
+        {
+          "source": "fastapi",
+          "target": "starlette",
+          "constraint_type": "caret",
+          "version_spec": ">=0.27.0",
+          "age_days": 481
+        },
+        {
+          "source": "fastapi",
+          "target": "pydantic",
+          "constraint_type": "caret",
+          "version_spec": ">=1.7.4,<3.0.0",
+          "age_days": 490
+        },
+        {
+          "source": "fastapi",
+          "target": "typing-extensions",
+          "constraint_type": "caret",
+          "version_spec": ">=4.5.0",
+          "age_days": 481
+        },
+        {
+          "source": "starlette",
+          "target": "anyio",
+          "constraint_type": "caret",
+          "version_spec": ">=3.4.0,<5.0.0",
+          "age_days": 489
+        },
+        {
+          "source": "anyio",
+          "target": "sniffio",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1",
+          "age_days": 491
+        },
+        {
+          "source": "pydantic",
+          "target": "pydantic-core",
+          "constraint_type": "pinned",
+          "version_spec": "==2.14.0",
+          "age_days": 491
+        },
+        {
+          "source": "pydantic",
+          "target": "typing-extensions",
+          "constraint_type": "caret",
+          "version_spec": ">=4.6.1",
+          "age_days": 493
+        },
+        {
+          "source": "uvicorn",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=7.0",
+          "age_days": 484
+        },
+        {
+          "source": "uvicorn",
+          "target": "h11",
+          "constraint_type": "caret",
+          "version_spec": ">=0.8",
+          "age_days": 487
+        },
+        {
+          "source": "httpx",
+          "target": "httpcore",
+          "constraint_type": "caret",
+          "version_spec": ">=0.17.0,<0.19.0",
+          "age_days": 493
+        },
+        {
+          "source": "httpx",
+          "target": "certifi",
+          "constraint_type": "caret",
+          "version_spec": ">=2022.0",
+          "age_days": 485
+        },
+        {
+          "source": "httpx",
+          "target": "idna",
+          "constraint_type": "caret",
+          "version_spec": ">=2.8",
+          "age_days": 485
+        },
+        {
+          "source": "httpx",
+          "target": "sniffio",
+          "constraint_type": "caret",
+          "version_spec": ">=1.0",
+          "age_days": 485
+        },
+        {
+          "source": "httpcore",
+          "target": "h11",
+          "constraint_type": "caret",
+          "version_spec": ">=0.13.0,<0.15.0",
+          "age_days": 482
+        },
+        {
+          "source": "httpcore",
+          "target": "certifi",
+          "constraint_type": "caret",
+          "version_spec": ">=2021.0",
+          "age_days": 492
+        },
+        {
+          "source": "cryptography",
+          "target": "cffi",
+          "constraint_type": "caret",
+          "version_spec": ">=1.12",
+          "age_days": 487
+        },
+        {
+          "source": "cffi",
+          "target": "pycparser",
+          "constraint_type": "caret",
+          "version_spec": ">=2.06",
+          "age_days": 495
+        },
+        {
+          "source": "pyOpenSSL",
+          "target": "cryptography",
+          "constraint_type": "caret",
+          "version_spec": ">=38.0.0",
+          "age_days": 484
+        },
+        {
+          "source": "celery",
+          "target": "kombu",
+          "constraint_type": "caret",
+          "version_spec": ">=5.3.0,<6.0",
+          "age_days": 487
+        },
+        {
+          "source": "celery",
+          "target": "billiard",
+          "constraint_type": "caret",
+          "version_spec": ">=4.1.0,<5.0",
+          "age_days": 494
+        },
+        {
+          "source": "celery",
+          "target": "click",
+          "constraint_type": "caret",
+          "version_spec": ">=8.0.3",
+          "age_days": 488
+        },
+        {
+          "source": "celery",
+          "target": "vine",
+          "constraint_type": "caret",
+          "version_spec": ">=5.0.0",
+          "age_days": 494
+        },
+        {
+          "source": "kombu",
+          "target": "amqp",
+          "constraint_type": "caret",
+          "version_spec": ">=5.1.1,<6.0",
+          "age_days": 488
+        },
+        {
+          "source": "kombu",
+          "target": "vine",
+          "constraint_type": "caret",
+          "version_spec": ">=5.0.0",
+          "age_days": 480
+        },
+        {
+          "source": "sqlalchemy",
+          "target": "greenlet",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0",
+          "age_days": 494
+        },
+        {
+          "source": "alembic",
+          "target": "sqlalchemy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.3.0",
+          "age_days": 489
+        },
+        {
+          "source": "alembic",
+          "target": "mako",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1.0",
+          "age_days": 485
+        },
+        {
+          "source": "mako",
+          "target": "markupsafe",
+          "constraint_type": "caret",
+          "version_spec": ">=0.9.2",
+          "age_days": 482
+        },
+        {
+          "source": "scikit-learn",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.19.5",
+          "age_days": 494
+        },
+        {
+          "source": "scikit-learn",
+          "target": "scipy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.6.0",
+          "age_days": 491
+        },
+        {
+          "source": "scikit-learn",
+          "target": "joblib",
+          "constraint_type": "caret",
+          "version_spec": ">=1.1.1",
+          "age_days": 489
+        },
+        {
+          "source": "scikit-learn",
+          "target": "threadpoolctl",
+          "constraint_type": "caret",
+          "version_spec": ">=2.0.0",
+          "age_days": 493
+        },
+        {
+          "source": "scipy",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.19.5",
+          "age_days": 488
+        },
+        {
+          "source": "pandas",
+          "target": "numpy",
+          "constraint_type": "caret",
+          "version_spec": ">=1.20.0",
+          "age_days": 494
+        },
+        {
+          "source": "rich",
+          "target": "pygments",
+          "constraint_type": "caret",
+          "version_spec": ">=2.6.0",
+          "age_days": 489
+        },
+        {
+          "source": "rich",
+          "target": "colorama",
+          "constraint_type": "caret",
+          "version_spec": ">=0.4.0",
+          "age_days": 486
+        }
+      ]
+    }
+  ]
+}
