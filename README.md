@@ -115,16 +115,16 @@ graphshield/
 
 ---
 
-## 4. Quickstart & Installation
+## 4. Reproduction Instructions & Quickstart
 
 ### Step 1: Install Dependencies
-```powershell
+```bash
 pip install -r requirements.txt
 ```
 
 ### Step 2: Run the Automated Unit Test Suite
 The test suite validates data schemas, DAG acyclicity, PyG tensors, gradient flow, and evaluation formulas:
-```powershell
+```bash
 pytest -v
 ```
 
@@ -134,19 +134,19 @@ pytest -v
 
 ### Sub-Second Dry Run (Continuous Integration Mode)
 To instantly generate evaluation metrics and export LaTeX tables using the deterministic mock engine:
-```powershell
+```bash
 python run_experiments.py --backend mock
 ```
 
 ### Live CPU Training Run
 To execute live end-to-end training and evaluation across all 5 models (PageRank, Random Forest, XGBoost, Static GCN, and GraphShield TGAT+GRU):
-```powershell
+```bash
 python run_experiments.py --backend cpu --epochs 50 --dataset all
 ```
 
 ### Live GPU Training Run (NVIDIA RTX)
 If an NVIDIA CUDA-capable GPU (e.g., RTX 5050 / RTX 40-series) is available:
-```powershell
+```bash
 python run_experiments.py --backend pyg --epochs 60 --dataset all
 ```
 
