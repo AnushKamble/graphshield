@@ -96,8 +96,16 @@ class ParquetColumnarPipeline:
         LEFT JOIN out_deg o ON n.epoch = o.epoch AND n.name = o.package_name
         ORDER BY n.epoch, in_degree DESC
         """
-        arrow_table = self.duck_conn.execute(query).arrow()
-        return pl.from_arrow(arrow_table)
+        res = self.duck_conn.execute(query)
+        if hasattr(res, "pl"):
+            return res.pl()
+        if hasattr(res, "arrow"):
+            return pl.from_arrow(res.arrow())
+        if hasattr(res, "fetch_arrow_table"):
+            return pl.from_arrow(res.fetch_arrow_table())
+        df_rows = res.fetchall()
+        cols = [desc[0] for desc in res.description]
+        return pl.DataFrame(df_rows, schema=cols, orient="row")
 
     def compute_summary_stats(self) -> Dict[str, Any]:
         """Compute high-level summary statistics across the temporal graph."""
