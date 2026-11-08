@@ -1,4 +1,4 @@
-\documentclass[sigconf,screen,nonacm]{acmart}
+\documentclass[sigconf,screen,nonacm,pbalance]{acmart}
 
 \usepackage{booktabs}
 \usepackage{multirow}
@@ -69,45 +69,48 @@ Currently, the primary defense deployed across industry relies on automated soft
 % =========================================================================
 \begin{figure}[t]
 \centering
+\resizebox{\columnwidth}{!}{%
 \begin{tikzpicture}[
     font=\sffamily\scriptsize,
-    node distance=0.7cm and 1.6cm,
-    pkg/.style={draw=blue!70!black, thick, rounded corners=3pt, fill=blue!5, align=center, inner sep=4pt, minimum width=2.4cm},
-    vulnpkg/.style={draw=red!80!black, thick, rounded corners=3pt, fill=red!10, align=center, inner sep=4pt, minimum width=2.4cm},
-    warnpkg/.style={draw=orange!80!black, thick, rounded corners=3pt, fill=orange!10, align=center, inner sep=4pt, minimum width=2.4cm},
-    pinnedpkg/.style={draw=green!60!black, thick, rounded corners=3pt, fill=green!8, align=center, inner sep=4pt, minimum width=2.4cm},
+    pkgbase/.style={thick, rounded corners=3pt, align=center, inner sep=4pt, text width=2.6cm, minimum height=0.95cm},
+    pkg/.style={pkgbase, draw=blue!70!black, fill=blue!5},
+    vulnpkg/.style={pkgbase, draw=red!80!black, fill=red!10},
+    warnpkg/.style={pkgbase, draw=orange!80!black, fill=orange!10},
+    pinnedpkg/.style={pkgbase, draw=green!60!black, fill=green!8},
     depedge/.style={-{Stealth[scale=0.9]}, thick, draw=gray!70!black},
     infflow/.style={-{Stealth[scale=1.0]}, very thick, draw=red!70!black, dashed}
 ]
 
-% Snapshot t=0
-\node[pkg] (app0) {\textbf{Application Service}\\\tiny release v2.0};
-\node[pkg, below=of app0] (mid0) {\textbf{Web Framework}\\\tiny release v1.4};
-\node[pkg, below=of mid0] (leaf0) {\textbf{Core Parser}\\\tiny \texttt{v1.0.0} (Clean)};
+% Snapshot t=0 (Left column: x = 0.0, dy = 1.45cm)
+\node[pkg] (app0) at (0.0, 0.0) {\textbf{Application Service}\\\tiny release v2.0};
+\node[pkg] (mid0) at (0.0, -1.45) {\textbf{Web Framework}\\\tiny release v1.4};
+\node[pkg] (leaf0) at (0.0, -2.90) {\textbf{Core Parser}\\\tiny \texttt{v1.0.0} (Clean)};
 
 \draw[depedge] (app0) -- node[right]{\tiny \texttt{\^{}1.4} (caret)} (mid0);
 \draw[depedge] (mid0) -- node[right]{\tiny \texttt{\^{}1.0} (caret)} (leaf0);
 
-% Snapshot t=1
-\node[warnpkg, right=2.0cm of app0] (app1) {\textbf{Application Service}\\\tiny \textbf{[EXPOSED CASCADED]}};
-\node[warnpkg, below=of app1] (mid1) {\textbf{Web Framework}\\\tiny \textbf{[TRANSITIVELY INFECTED]}};
-\node[vulnpkg, below=of mid1] (leaf1) {\textbf{Core Parser}\\\tiny \texttt{v1.1.0} (\textbf{Vulnerable/Backdoor})};
+% Snapshot t=1 (Right column: x = 4.0, dy = 1.45cm, vertically aligned)
+\node[warnpkg] (app1) at (4.0, 0.0) {\textbf{Application Service}\\\tiny \textbf{[EXPOSED CASCADED]}};
+\node[warnpkg] (mid1) at (4.0, -1.45) {\textbf{Web Framework}\\\tiny \textbf{[TRANSITIVELY INFECTED]}};
+\node[vulnpkg] (leaf1) at (4.0, -2.90) {\textbf{Core Parser}\\\tiny \texttt{v1.1.0} (\textbf{Vulnerable/Backdoor})};
 
-\draw[depedge] (app1) -- node[right]{\tiny \texttt{\^{}1.4}} (mid1);
-\draw[depedge] (mid1) -- node[right]{\tiny \texttt{\^{}1.0} auto-resolves} (leaf1);
+% Offset arrows: depedge on right (+4mm), infflow on left (-4mm) to eliminate collisions
+\draw[depedge] ([xshift=4mm]app1.south) -- node[right]{\tiny \texttt{\^{}1.4}} ([xshift=4mm]mid1.north);
+\draw[depedge] ([xshift=4mm]mid1.south) -- node[right]{\tiny \texttt{\^{}1.0} auto} ([xshift=4mm]leaf1.north);
 
 % Evolution and Cascade arrows
 \draw[-{Stealth[scale=1.1]}, thick, draw=blue!60!black] (leaf0) -- node[above]{\tiny Bump} (leaf1);
-\draw[infflow] (leaf1) -- node[left]{\tiny \textbf{Cascade Flow}} (mid1);
-\draw[infflow] (mid1) -- node[left]{\tiny \textbf{Cascade Flow}} (app1);
+\draw[infflow] ([xshift=-4mm]leaf1.north) -- node[left]{\tiny \textbf{Cascade}} ([xshift=-4mm]mid1.south);
+\draw[infflow] ([xshift=-4mm]mid1.north) -- node[left]{\tiny \textbf{Cascade}} ([xshift=-4mm]app1.south);
 
-% Bounding boxes
+% Bounding boxes (Identical dimensions and symmetry)
 \begin{scope}[on background layer]
-\node[draw=gray!50, rounded corners=4pt, fit=(app0)(leaf0), fill=gray!3, inner sep=5pt, label=above:{\textbf{Snapshot $t=0$ (Pre-Compromise)}}] {};
-\node[draw=red!40, rounded corners=4pt, fit=(app1)(leaf1), fill=red!2, inner sep=5pt, label=above:{\textbf{Snapshot $t=1$ (Advisory Lag Phase)}}] {};
+\node[draw=gray!50, rounded corners=4pt, fit=(app0)(leaf0), fill=gray!3, inner sep=6pt, label=above:{\textbf{Snapshot $t=0$ (Pre-Compromise)}}] {};
+\node[draw=red!40, rounded corners=4pt, fit=(app1)(leaf1), fill=red!2, inner sep=6pt, label=above:{\textbf{Snapshot $t=1$ (Advisory Lag Phase)}}] {};
 \end{scope}
 
-\end{tikzpicture}
+\end{tikzpicture}%
+}
 \caption{Dynamic transitive vulnerability cascade across consecutive dependency graph snapshots. Loose SemVer constraints (\texttt{\^{}}, \texttt{\~{}}) cause downstream services to silently ingest vulnerable releases during the disclosure dormancy window prior to official CVE indexing.}
 \Description{Diagram illustrating dynamic transitive vulnerability cascades across consecutive dependency graph snapshots.}
 \label{fig:cascade_intro}
@@ -139,27 +142,28 @@ To address these challenges, we introduce \textbf{GraphShield}, a predictive tem
 \resizebox{0.95\linewidth}{!}{%
 \begin{tikzpicture}[
     font=\sffamily\footnotesize,
-    stage/.style={draw=blue!70!black, thick, rounded corners=3pt, fill=blue!5, align=center, inner sep=6pt, minimum height=1.0cm, minimum width=3.2cm},
-    gnn/.style={draw=purple!80!black, thick, rounded corners=3pt, fill=purple!5, align=center, inner sep=6pt, minimum height=1.0cm, minimum width=3.4cm},
-    loss/.style={draw=orange!80!black, thick, rounded corners=3pt, fill=orange!5, align=center, inner sep=6pt, minimum height=1.0cm, minimum width=3.4cm},
-    alertbox/.style={draw=green!60!black, thick, rounded corners=3pt, fill=green!8, align=center, inner sep=6pt, minimum height=1.0cm, minimum width=4.8cm},
+    gridbox/.style={thick, rounded corners=3pt, align=center, inner sep=4pt, text width=4.0cm, minimum height=1.35cm},
+    stage/.style={gridbox, draw=blue!70!black, fill=blue!5},
+    gnn/.style={gridbox, draw=purple!80!black, fill=purple!5},
+    loss/.style={gridbox, draw=orange!80!black, fill=orange!5},
+    alertbox/.style={gridbox, draw=green!60!black, fill=green!8},
     arr/.style={-{Stealth[scale=1.1]}, thick, draw=gray!80!black},
     downarr/.style={-{Stealth[scale=1.1]}, thick, draw=purple!80!black}
 ]
 
-% Row 1: Data Ingestion Pipeline (Left to Right)
-\node[stage] (raw) at (0, 0) {\textbf{Ecosystem Registry Streams}\\\scriptsize Multi-Epoch PyPI \& npm Registries};
-\node[stage] (columnar) at (5.5, 0) {\textbf{Out-of-Core Columnar Engine}\\\scriptsize Polars Vectorized Scans $\cdot$ DuckDB Joins};
-\node[stage] (dag) at (11.5, 0) {\textbf{Temporal Dynamic DAGs}\\\scriptsize Sequence $\mathcal{G} = \{G_1, \dots, G_T\}$ with Reverse Edges};
+% Row 1: Data Ingestion Pipeline (Uniform columns at x = 0.0, 5.6, 11.2, dy = 0.0)
+\node[stage] (raw) at (0.0, 0) {\textbf{Ecosystem Registry Streams}\\\scriptsize Multi-Epoch PyPI \& npm Registries};
+\node[stage] (columnar) at (5.6, 0) {\textbf{Out-of-Core Columnar Engine}\\\scriptsize Polars Vectorized Scans $\cdot$ DuckDB Joins};
+\node[stage] (dag) at (11.2, 0) {\textbf{Temporal Dynamic DAGs}\\\scriptsize Sequence $\mathcal{G} = \{G_1, \dots, G_T\}$ with Reverse Edges};
 
-% Row 2: Dual-Stage Spatio-Temporal GNN (Left to Right)
-\node[gnn] (tgat) at (0, -2.4) {\textbf{Stage 1: Spatial Attention}\\\scriptsize Directed GATv2 with SemVer Edges $\mathbf{e}_{ij}^{(t)}$};
-\node[gnn] (gru) at (5.5, -2.4) {\textbf{Stage 2: Gated Memory}\\\scriptsize GRU Recurrence on Trajectory $\mathbf{h}_i^{(t)}$};
-\node[stage] (head) at (11.5, -2.4) {\textbf{Risk Estimation Head}\\\scriptsize Calibrated Exposure Score $\hat{y}_i^{(t)} \in [0, 1]$};
+% Row 2: Dual-Stage Spatio-Temporal GNN (Identical columns at x = 0.0, 5.6, 11.2, dy = -2.4)
+\node[gnn] (tgat) at (0.0, -2.4) {\textbf{Stage 1: Spatial Attention}\\\scriptsize Directed GATv2 with SemVer Edges $\mathbf{e}_{ij}^{(t)}$};
+\node[gnn] (gru) at (5.6, -2.4) {\textbf{Stage 2: Gated Memory}\\\scriptsize GRU Recurrence on Trajectory $\mathbf{h}_i^{(t)}$};
+\node[stage] (head) at (11.2, -2.4) {\textbf{Risk Estimation Head}\\\scriptsize Calibrated Exposure Score $\hat{y}_i^{(t)} \in [0, 1]$};
 
-% Row 3: Output Objectives & Operational Triage
-\node[loss] (focal) at (3.5, -4.6) {\textbf{Focal Loss ($\gamma=2.0, \alpha=0.80$)}\\\scriptsize Combats Extreme $<3\%$ Class Imbalance};
-\node[alertbox] (pred) at (9.5, -4.6) {\textbf{Proactive Cascade Alert Engine}\\\scriptsize $\bullet$ 0.914 PR-AUC $\cdot$ 77.2\% Alert Reduction $\cdot$ 72.4d Lead Time};
+% Row 3: Output Objectives & Operational Triage (Centered symmetrically under grid at x = 2.8, 8.4, y = -4.8)
+\node[loss] (focal) at (2.8, -4.8) {\textbf{Focal Loss ($\gamma=2.0, \alpha=0.80$)}\\\scriptsize Combats Extreme $<3\%$ Class Imbalance};
+\node[alertbox] (pred) at (8.4, -4.8) {\textbf{Proactive Cascade Alert Engine}\\\scriptsize 0.914 PR-AUC $\cdot$ 77.2\% Alert Red.\\\scriptsize 72.4-Day Advance Warning Window};
 
 % Row 1 connections
 \draw[arr] (raw) -- (columnar);
@@ -172,9 +176,9 @@ To address these challenges, we introduce \textbf{GraphShield}, a predictive tem
 \draw[arr] (tgat) -- node[above]{\scriptsize Spatial $\mathbf{z}_i^{(t)}$} (gru);
 \draw[arr] (gru) -- node[above]{\scriptsize Memory $\mathbf{h}_i^{(t)}$} (head);
 
-% Branching to Training Loss and Operational Alert Engine
-\draw[arr, draw=orange!80!black, dashed] (head.south) -- ++(0, -0.5) -| node[pos=0.25, above]{\scriptsize Training Loss} (focal.north);
-\draw[arr, draw=green!60!black] (head.south) -- ++(0, -0.5) -| node[pos=0.25, above]{\scriptsize Operational Triage} (pred.north);
+% Branching to Training Loss and Operational Alert Engine (Offset start points and drop levels to eliminate overlap)
+\draw[arr, draw=orange!80!black, dashed] ([xshift=-5mm]head.south) -- ++(0, -0.4) -| node[pos=0.35, above]{\scriptsize Training Loss} (focal.north);
+\draw[arr, draw=green!60!black] ([xshift=5mm]head.south) -- ++(0, -0.8) -| node[pos=0.20, above]{\scriptsize Operational Triage} (pred.north);
 
 \end{tikzpicture}%
 }
@@ -321,9 +325,12 @@ To assess GraphShield's sensitivity to version constraints, we executed $100$ Mo
 
 In this paper, we presented \textbf{GraphShield}, a predictive temporal graph neural network framework designed to combat cascading vulnerability propagation across open-source dependency ecosystems. GraphShield combines an out-of-core Polars/DuckDB columnar pipeline with a dual-stage Spatio-Temporal Graph Attention Network and Focal Loss optimization. Across standardized multi-epoch PyPI and npm benchmarks, GraphShield achieves state-of-the-art PR-AUC ($0.914$ and $0.892$), eliminates up to $77.2\%$ of spurious developer alerts, and provides proactive security warnings $72.4$ days prior to official CVE disclosures. Future work will extend GraphShield to decentralized package registries and incorporate large language model (LLM) commit semantic embeddings into spatial node representations.
 
-\balance
 \bibliographystyle{ACM-Reference-Format}
+\renewcommand{\bibfont}{\footnotesize}
 \begin{thebibliography}{18}
+\footnotesize
+\setlength{\itemsep}{2pt plus 0.5pt}
+\setlength{\parsep}{0pt}
 
 \bibitem{allamanis2018learning}
 Miltiadis Allamanis, Marc Brockschmidt, and Mahmoud Khademi. 2018.
