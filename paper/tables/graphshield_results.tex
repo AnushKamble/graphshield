@@ -15,11 +15,11 @@ Statistically significant improvements over strongest baseline denoted with $^\d
 \cline{2-11}
  & \textbf{PR-AUC} $\uparrow$ & \textbf{ROC-AUC} $\uparrow$ & \textbf{F1} $\uparrow$ & \textbf{Alert Red.} $\uparrow$ & \textbf{Lead Time} $\uparrow$ & \textbf{PR-AUC} $\uparrow$ & \textbf{ROC-AUC} $\uparrow$ & \textbf{F1} $\uparrow$ & \textbf{Alert Red.} $\uparrow$ & \textbf{Lead Time} $\uparrow$ \\
 \midrule
-PageRank Heuristic & 0.435 & 0.651 & 0.402 & 21.0\% & 14.2d & 0.412 & 0.638 & 0.385 & 18.4\% & 12.5d \\
-Random Forest & 0.602 & 0.789 & 0.568 & 36.5\% & 31.8d & 0.584 & 0.772 & 0.542 & 34.2\% & 28.0d \\
-XGBoost & 0.665 & 0.834 & 0.633 & 45.2\% & 38.6d & 0.648 & 0.819 & 0.610 & 43.1\% & 35.4d \\
-Static GCN & \underline{0.734} & \underline{0.878} & \underline{0.702} & \underline{55.4\%} & \underline{49.5d} & \underline{0.718} & \underline{0.865} & \underline{0.684} & \underline{52.8\%} & \underline{46.2d} \\
-GraphShield (Proposed) & \textbf{0.914}$^\dagger$ & \textbf{0.968}$^\dagger$ & \textbf{0.885}$^\dagger$ & \textbf{77.2\%}$^\dagger$ & \textbf{72.4d}$^\dagger$ & \textbf{0.892}$^\dagger$ & \textbf{0.954}$^\dagger$ & \textbf{0.868}$^\dagger$ & \textbf{74.6\%}$^\dagger$ & \textbf{68.3d}$^\dagger$ \\
+PageRank Heuristic & 0.238 & 0.530 & 0.006 & \textbf{99.9\%} & 13.0d & 0.113 & 0.559 & 0.000 & \textbf{99.9\%} & 0.0d \\
+Random Forest & 0.344 & 0.687 & 0.438 & 48.5\% & 30.3d & 0.140 & 0.632 & 0.219 & 47.1\% & 26.2d \\
+XGBoost & 0.372 & 0.708 & 0.458 & 49.1\% & 32.5d & 0.159 & 0.656 & 0.230 & 61.1\% & 28.8d \\
+Static GCN & \underline{0.439} & \underline{0.773} & \underline{0.511} & 48.4\% & \textbf{42.2d} & \underline{0.469} & \underline{0.883} & \underline{0.471} & 76.0\% & \textbf{48.0d} \\
+GraphShield (Proposed) & \textbf{0.740}$^\dagger$ & \textbf{0.910}$^\dagger$ & \textbf{0.647}$^\dagger$ & \underline{56.0\%} & \underline{37.3d} & \textbf{0.684}$^\dagger$ & \textbf{0.920}$^\dagger$ & \textbf{0.564}$^\dagger$ & \underline{82.0\%} & \underline{37.0d} \\
 \bottomrule
 \hline
 \end{tabular}%
