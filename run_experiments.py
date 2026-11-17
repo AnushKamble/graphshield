@@ -259,7 +259,7 @@ def export_latex_results_table(
 \small
 \caption{Empirical Evaluation: GraphShield vs. Baselines on PyPI and npm Temporal Dependency Streams. 
 Best results are indicated in \textbf{bold}; second-best are \underline{underlined}. 
-Statistically significant improvements over strongest baseline denoted with $^\dagger$ ($p < 0.001$, paired Student's t-test).}
+Statistically significant improvements over strongest baseline denoted with $^\dagger$ ($p < 0.001$, paired Student's t-test / Wilcoxon signed-rank test).}
 \label{tab:graphshield_benchmark}
 \resizebox{\linewidth}{!}{%
 \begin{tabular}{l|ccccc|ccccc}
