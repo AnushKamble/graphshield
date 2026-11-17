@@ -2,11 +2,13 @@
 % Standard IEEE/ACM Conference Table Format
 \begin{table*}[t]
 \centering
-\small
+\footnotesize
 \caption{Empirical Evaluation: GraphShield vs. Baselines on PyPI and npm Temporal Dependency Streams. 
-Best results are indicated in \textbf{bold}; second-best are \underline{underlined}. 
+Best results are in \textbf{bold}; second-best are \underline{underlined}. 
 Statistically significant improvements over strongest baseline denoted with $^\dagger$ ($p < 0.001$, paired Student's t-test / Wilcoxon signed-rank test).}
 \label{tab:graphshield_benchmark}
+\vspace{-2mm}
+\setlength{\tabcolsep}{4.5pt}
 \resizebox{\linewidth}{!}{%
 \begin{tabular}{l|ccccc|ccccc}
 \hline
@@ -24,4 +26,5 @@ GraphShield (Proposed) & \textbf{0.740}$^\dagger$ & \textbf{0.910}$^\dagger$ & \
 \hline
 \end{tabular}%
 }
+\vspace{-2mm}
 \end{table*}

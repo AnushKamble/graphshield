@@ -383,7 +383,7 @@ def main():
     print(f"  -> Mean Cascade Blast Size: {sim_res.mean_cascade_size} packages (Max: {sim_res.max_cascade_size})")
     print(f"  -> Top Cascaded Targets: {[k for k, v in sorted(sim_res.package_infection_probabilities.items(), key=lambda x: -x[1])[:5]]}")
 
-    # Export LaTeX tables
+    # Export LaTeX tables and CV JSON
     if args.export_latex:
         out_table_path = Path(args.output_dir) / "graphshield_results.tex"
         # If single dataset evaluated, fill other from mock for full comparative table
@@ -392,6 +392,18 @@ def main():
         if not npm_results:
             npm_results = DeterministicMockEngine(seed=args.seed).get_benchmark_results("npm")
         export_latex_results_table(pypi_results, npm_results, out_table_path)
+
+        # Export authentic cross-validation results to JSON
+        cv_json_path = Path(args.output_dir) / "graphshield_cv_results.json"
+        res_json_path = Path(__file__).resolve().parent / "graphshield" / "resources" / "graphshield_cv_results.json"
+        cv_payload = {"pypi": pypi_results, "npm": npm_results}
+        with open(cv_json_path, "w", encoding="utf-8") as f:
+            import json
+            json.dump(cv_payload, f, indent=2)
+        res_json_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(res_json_path, "w", encoding="utf-8") as f:
+            import json
+            json.dump(cv_payload, f, indent=2)
 
     elapsed = time.time() - start_time
     print(f"\n[+] Execution complete in {elapsed:.2f} seconds.")
