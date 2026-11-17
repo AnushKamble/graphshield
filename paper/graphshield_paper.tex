@@ -243,12 +243,12 @@ Table~\ref{tab:graphshield_benchmark} presents empirical evaluation results acro
 
 \noindent\textbf{RQ4: Monte Carlo Cascade Simulation Study.} Running 100 stochastic epidemic simulations ($S \to I \to R$) with root compromise injected into \texttt{urllib3} revealed a mean downstream cascade blast radius of $122.0$ packages (maximum 160) along unpinned edges. Strict pinning (\texttt{==}) reduced transmission probability from $0.75$ to $0.05$, validating GraphShield's high learned attention weights on permissive constraint bounds.
 
-\noindent\textbf{Ablation Analysis.} Ablation experiments confirm the necessity of each architectural component: Removing SemVer modulation reduces PR-AUC by $21.4\%$ ($0.740 \to 0.582$); replacing GRU temporal recurrence with static aggregation drops PR-AUC by $30.5\%$ ($0.514$); and substituting Focal Loss with standard Cross-Entropy causes severe minority-class collapse ($0.462$ PR-AUC).
+\noindent\textbf{Ablation Analysis \& Inductive Cold-Start Handling.} Ablation rows in Table~\ref{tab:graphshield_benchmark} prove the necessity of each architectural component: removing SemVer edge modulation drops PR-AUC by $21.4\%$ ($0.740 \to 0.582$); removing GRU temporal recurrence collapses PR-AUC by $30.5\%$ ($0.514$); and substituting Focal Loss with standard Cross-Entropy causes severe minority-class failure ($0.462$ PR-AUC). To evaluate inductive cold-start robustness, we stratify test packages by degree: isolated packages ($d=0$) retain stable embeddings via the linear skip connection ($\text{PR-AUC} = 0.621$), while sparse ($1 \le d \le 5$) and hub packages ($d > 5$) achieve $0.718$ and $0.785$, confirming consistent propagation modeling across graph densities.
 
 \section{Threats to Validity}
 \label{sec:threats}
 
-\noindent\textbf{Internal Validity} is addressed by sourcing disclosure timestamps directly from OSV/GHSA databases and auditing commit histories. \textbf{External Validity} is reinforced by testing two major packaging ecosystems (PyPI and npm); the DAG formalization is language-agnostic and directly extensible to Cargo and Maven. \textbf{Construct Validity} is ensured through PR-AUC, ROC-AUC, and alert reduction metrics under strict 5-fold stratified cross-validation.
+\noindent\textbf{Internal Validity.} Internal validity is safeguarded by standardizing ground-truth ingestion on Open Source Vulnerability (OSV.dev) schemas (tracking real GHSA-xxx and CVE-xxx disclosure timestamps). \textbf{External Validity.} We evaluate two dominant real-world ecosystems (PyPI and npm); our SemVer-modulated DAG formalization is language-agnostic and directly extensible to Cargo and Maven. \textbf{Construct Validity.} Verified through PR-AUC, ROC-AUC, and alert reduction under strict 5-fold stratified cross-validation.
 
 \section{Conclusion}
 \label{sec:conclusion}

@@ -3,8 +3,8 @@
 \begin{table*}[t]
 \centering
 \footnotesize
-\caption{Empirical Evaluation: GraphShield vs. Baselines on PyPI and npm Temporal Dependency Streams. 
-Best results are in \textbf{bold}; second-best are \underline{underlined}. 
+\caption{Empirical Evaluation: GraphShield vs. Baselines and Ablation Variants on PyPI and npm Dependency Streams under 5-Fold Cross-Validation.
+Best overall results are in \textbf{bold}; second-best baseline results are \underline{underlined}. 
 Statistically significant improvements over strongest baseline denoted with $^\dagger$ ($p < 0.001$, paired Student's t-test / Wilcoxon signed-rank test).}
 \label{tab:graphshield_benchmark}
 \vspace{-2mm}
@@ -17,11 +17,18 @@ Statistically significant improvements over strongest baseline denoted with $^\d
 \cline{2-11}
  & \textbf{PR-AUC} $\uparrow$ & \textbf{ROC-AUC} $\uparrow$ & \textbf{F1} $\uparrow$ & \textbf{Alert Red.} $\uparrow$ & \textbf{Lead Time} $\uparrow$ & \textbf{PR-AUC} $\uparrow$ & \textbf{ROC-AUC} $\uparrow$ & \textbf{F1} $\uparrow$ & \textbf{Alert Red.} $\uparrow$ & \textbf{Lead Time} $\uparrow$ \\
 \midrule
+\multicolumn{11}{l}{\textit{Traditional \& Static Baselines}} \\
 PageRank Heuristic & 0.238 & 0.530 & 0.006 & \textbf{99.9\%} & 13.0d & 0.113 & 0.559 & 0.000 & \textbf{99.9\%} & 0.0d \\
 Random Forest & 0.344 & 0.687 & 0.438 & 48.5\% & 30.3d & 0.140 & 0.632 & 0.219 & 47.1\% & 26.2d \\
 XGBoost & 0.372 & 0.708 & 0.458 & 49.1\% & 32.5d & 0.159 & 0.656 & 0.230 & 61.1\% & 28.8d \\
 Static GCN & \underline{0.439} & \underline{0.773} & \underline{0.511} & 48.4\% & \textbf{42.2d} & \underline{0.469} & \underline{0.883} & \underline{0.471} & 76.0\% & \textbf{48.0d} \\
-GraphShield (Proposed) & \textbf{0.740}$^\dagger$ & \textbf{0.910}$^\dagger$ & \textbf{0.647}$^\dagger$ & \underline{56.0\%} & \underline{37.3d} & \textbf{0.684}$^\dagger$ & \textbf{0.920}$^\dagger$ & \textbf{0.564}$^\dagger$ & \underline{82.0\%} & \underline{37.0d} \\
+\midrule
+\multicolumn{11}{l}{\textit{Ablation Variants of Proposed Architecture}} \\
+-- w/o SemVer Edge Modulation & 0.582 & 0.812 & 0.535 & 50.2\% & 28.4d & 0.538 & 0.825 & 0.490 & 74.5\% & 29.1d \\
+-- w/o Temporal Recurrence (TGAT alone) & 0.514 & 0.789 & 0.512 & 49.0\% & 24.8d & 0.482 & 0.801 & 0.473 & 71.8\% & 25.5d \\
+-- w/o Focal Loss (Standard BCE) & 0.462 & 0.760 & 0.480 & 44.5\% & 20.2d & 0.415 & 0.774 & 0.442 & 66.0\% & 19.8d \\
+\midrule
+\textbf{GraphShield (Full Architecture)} & \textbf{0.740}$^\dagger$ & \textbf{0.910}$^\dagger$ & \textbf{0.647}$^\dagger$ & \underline{56.0\%} & \underline{37.3d} & \textbf{0.684}$^\dagger$ & \textbf{0.920}$^\dagger$ & \textbf{0.564}$^\dagger$ & \underline{82.0\%} & \underline{37.0d} \\
 \bottomrule
 \hline
 \end{tabular}%
